@@ -14,14 +14,15 @@ Residence Hall Council member of the year for both 2006 and 2007.
 
 ## Education
 
-Computer Science Major, English Minor                    Fall 2006 - Present  
+Computer Science Major, English Minor   
+Fall 2006 - Present  
 California Polytechnic State University, San Luis Obispo  
 
 ## Systems Proficiency
 
 Programming Languages
 
- >  Proficient in: C, Java, PHP, HTML, CSS, SQL, Bash
+ > Proficient in: C, Java, PHP, HTML, CSS, SQL, Bash
 
 PC Software
 
