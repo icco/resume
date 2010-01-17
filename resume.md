@@ -30,6 +30,15 @@ PC Software
 
 ## Experience
 
+### iFixit.com, San Luis Obispo CA
+
+#### Software Developer
+
+April 2009 - Present
+
+ * Helped create a sitewide reputation community, which began with http://ifixit.com/Answers
+ * Helped maintain various servers, located on amazon EC2, and local development machines
+
 ### Adobe Systems Incorporated, San Francisco CA
 
 #### Dreamweaver QE Intern
