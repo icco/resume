@@ -14,7 +14,7 @@ Residence Hall Council member of the year for both 2006 and 2007.
 
 ## Education
 
-Computer Science Major, English Minor   
+Computer Science Major, English Minor  
 Fall 2006 - Present  
 California Polytechnic State University, San Luis Obispo  
 
@@ -22,7 +22,9 @@ California Polytechnic State University, San Luis Obispo
 
 Programming Languages
 
- > Proficient in: C, Java, PHP, HTML, CSS, SQL, Bash
+ > Proficient in: C, Java, PHP, HTML, CSS, SQL (MySql, SQLite), Bash
+
+ > Experience with: ML, F#, Ruby, Python
 
 PC Software
 
@@ -36,8 +38,8 @@ PC Software
 
 April 2009 - Present
 
- * Helped create a sitewide reputation community, which began with http://ifixit.com/Answers
- * Helped maintain various servers, located on amazon EC2, and local development machines
+ * Helped create a site-wide reputation community, which began with http://ifixit.com/Answers
+ * Helped maintain various servers, located on Amazon EC2, and local development machines
 
 ### Adobe Systems Incorporated, San Francisco CA
 
