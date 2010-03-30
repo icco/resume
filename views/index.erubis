@@ -1,0 +1,11 @@
+<html>
+<head>
+   <title><%= title %></title>
+   <link href="/style.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   <div id="resume">
+      <%= resume %>
+   </div>
+</body>
+</html>

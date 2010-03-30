@@ -7,7 +7,9 @@ require 'less'
 require 'rdiscount'
 
 get '/' do
-   RDiscount.new(File.read("resume.md"), :smart).to_html
+   title = "Nathaniel Welch's Resume"
+   resume = RDiscount.new(File.read("resume.md"), :smart).to_html
+   erubis :index, :locals => { :title => title, :resume => resume }
 end
 
 get '/style.css' do
