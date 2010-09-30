@@ -1,4 +1,4 @@
-#!/usr/bin/ruby1.8
+#!/usr/bin/env ruby
 # An app for displaying one's resume
 
 require 'rubygems'
