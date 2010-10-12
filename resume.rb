@@ -11,7 +11,6 @@ configure do
    set :config, YAML.load_file('config.yaml')['user_config']
 end
 
-
 get '/' do
    rfile = settings.config['file']
    name  = settings.config['name']
