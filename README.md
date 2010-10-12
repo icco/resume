@@ -7,12 +7,13 @@ Heroku.
 ## Installation
 
  1. Fork this project
- 2. Install the gems sinatra ( >= 1.0), rdiscount, erubis, and less
- 3. To deploy to Heroku, also install the heroku gem
-   * Run "heroku create"
- 4. type "rake" or ./main.rb to run locally. 
- 5. Edit views/style.less to make your resume look pretty.
- 6. "rake deploy" to push your resume to the internet.
+ 2. Modify resume.md to be your resume.
+ 3. Install the gems sinatra ( >= 1.0), rdiscount, and less
+ 4. To deploy to Heroku, also install the heroku gem
+   * Run `heroku create`
+ 5. type `rake` or `./resume.rb` to run locally. 
+ 6. Edit views/style.less to make your resume look pretty.
+ 7. `rake deploy` to push your resume to the internet.
 
 ## Other cool stuff
 
