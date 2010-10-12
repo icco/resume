@@ -1,15 +1,23 @@
 #!/usr/bin/env ruby
 # An app for displaying one's resume
 
-require 'rubygems'
-require 'sinatra'
-require 'less'
-require 'rdiscount'
+require "rubygems"
+require "sinatra"
+require "less"
+require "github/markup"
+require "yaml"
+
+configure do
+   set :config, YAML.load_file('config.yaml')['user_config']
+end
+
 
 get '/' do
-   title = "Nathaniel Welch's Resume"
-   resume = RDiscount.new(File.read("resume.md"), :smart).to_html
-   erubis :index, :locals => { :title => title, :resume => resume }
+   rfile = settings.config['file']
+   name  = settings.config['name']
+   title = "#{name}'s Resume"
+   resume = GitHub::Markup.render(rfile, File.read(rfile))
+   erb :index, :locals => { :title => title, :resume => resume }
 end
 
 get '/style.css' do

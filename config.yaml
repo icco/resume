@@ -1,0 +1,12 @@
+# This is the YAML config file to make this a little more abstractish
+
+user_config:
+   # Your Name. This will be used for the page title
+   name: 'Nathaniel Welch'
+
+   # The file you want to parse to be your resume
+   # Must be a format supported by github-markup
+   file: 'resume.md'
+
+   # A picture of you. Should be a complete url
+   pic: 'http://farm5.static.flickr.com/4044/4529365975_dd958b4ba1.jpg'
