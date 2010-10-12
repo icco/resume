@@ -2,13 +2,20 @@
  * Less based style sheet.
  */
 
-body {
-   color: #000;
+* {
+   margin: 0;
+   padding: 0;
 }
 
-/** 
+
+body {
+   color: 333333;
+   line-height: 1.4em;
+}
+
+/**
  * Fix float problem.
- * http://www.positioniseverything.net/easyclearing.html 
+ * http://www.positioniseverything.net/easyclearing.html
  */
 .clearfix:after {
     content: ".";
@@ -19,26 +26,56 @@ body {
  }
 
 #resume {
-   width: 700px;
+   width: 800px;
    margin-left: auto;
    margin-right: auto;
    font-family: serif;
+   margin-bottom: 30px;
 
-   h1 {
-
+   h1, h2, h3, h4, h5, h6 {
+      border: 0 !important;
    }
 
-   h2, h3, h4, h5, h6 {
+   h1 {
+      font-size: 170% !important;
+      border-top: 4px solid #aaa !important;
+      padding-top: .5em !important;
+      margin-top: 1.5em !important;
+   }
 
+   h1:first-child {
+      margin-top: 30px !important;
+      padding-top: .25em !important;
+      border-top: none !important;
+   }
+
+   h2 {
+      font-size: 150% !important;
+      margin-top: 1.5em !important;
+      border-top: 4px solid #e0e0e0 !important;
+      padding-top: .5em !important;
+   }
+
+   h3 {
+      margin-top: 1em !important;
    }
 
    p {
-
+      margin: 1em 0!important;
+      line-height: 1.5em!important;
    }
 
-   ul {
-      li {
+   ul, ol {
+      margin: 1em 0 1em 2em !important;
 
+      li {
+         margin-top: .5em;
+         margin-bottom: .5em;
+      }
+
+      ul, ol {
+         margin-top: 0!important;
+         margin-bottom: 0!important;
       }
    }
 
@@ -55,6 +92,53 @@ body {
 
    a:hover {
       text-decoration: underline;
+   }
+
+   pre {
+      margin: 1em 0!important;
+      font-size: 12px!important;
+      background-color: #f8f8ff!important;
+      border: 1px solid #dedede!important;
+      padding: .5em!important;
+      line-height: 1.5em!important;
+      color: #444!important;
+      overflow: auto!important;
+   }
+
+   pre code {
+      padding: 0!important;
+      font-size: 12px!important;
+      background-color: #f8f8ff!important;
+      border: none!important;
+   }
+
+   code {
+      font-size: 12px!important;
+      background-color: #f8f8ff!important;
+      color: #444!important;
+      padding: 0 .2em!important;
+      border: 1px solid #dedede!important;
+   }
+
+   img {
+      max-width: 100%;
+   }
+
+   blockquote {
+      margin: 1em 0!important;
+      border-left: 5px solid #ddd!important;
+      padding-left: .6em!important;
+      color: #555!important;
+   }
+
+   dt {
+      font-weight: bold!important;
+      margin-left: 1em!important;
+   }
+
+   dd {
+      margin-left: 2em!important;
+      margin-bottom: 1em!important;
    }
 }
 
