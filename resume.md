@@ -40,7 +40,7 @@ California Polytechnic State University, San Luis Obispo
 
 ##### April 2009 - Present
 
- * Helped create a site-wide reputation community, which began with http://iFixit.com/Answers
+ * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
  * Helped maintain various servers, located on Amazon EC2, and local development machines
 
 ### Adobe Systems Incorporated, San Francisco CA
