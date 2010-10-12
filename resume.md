@@ -1,8 +1,8 @@
 # Nathaniel Welch
 
- * 707-799-8675
  * <nat@natwelch.com>
  * <http://natwelch.com>
+ * 707-799-8675
 
 ## Skills Summary
 
