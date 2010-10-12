@@ -8,12 +8,18 @@ Heroku.
 
  1. Fork this project
  2. Modify resume.md to be your resume.
- 3. Install the gems sinatra ( >= 1.0), rdiscount, and less
+ 3. Install the gems [sinatra][s], [github-markup][gm], and [less][l]
+   * each of these has requirements to work correctly, such as [rdiscount][r] for [github-markup][gm]
  4. To deploy to Heroku, also install the heroku gem
    * Run `heroku create`
  5. type `rake` or `./resume.rb` to run locally. 
  6. Edit views/style.less to make your resume look pretty.
  7. `rake deploy` to push your resume to the internet.
+
+[s]: http://www.sinatrarb.com/
+[r]: http://github.com/rtomayko/rdiscount
+[l]: http://lesscss.org/
+[gm]: http://github.com/github/markup
 
 ## Other cool stuff
 
