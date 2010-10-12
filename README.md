@@ -14,6 +14,16 @@ Heroku.
  5. Edit views/style.less to make your resume look pretty.
  6. "rake deploy" to push your resume to the internet.
 
+## Other cool stuff
+
+My idea is pretty simple, I just wanted a plain text resume and an easy way to
+host it. [Dan Mayer][dm] took this idea and ran with it. He made a lot of
+really cool changes, and in although I love simplicity, I really love how much
+he abstracted out of my original design. You should really check out his
+resume, and some of the forks of it.
+
+[dm]: http://github.com/danmayer/Resume
+
 ## License
 
 resume.md is property of Nathaniel "Nat" Welch. You are welcome to use it as a
