@@ -10,3 +10,7 @@ user_config:
 
    # A picture of you. Should be a complete url
    pic: 'http://farm5.static.flickr.com/4044/4529365975_dd958b4ba1.jpg'
+
+github:
+   remote: 'git@github.com:icco/Resume.git'
+

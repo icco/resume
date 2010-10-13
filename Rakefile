@@ -30,6 +30,9 @@ task :github do
    require 'git'
    require 'resume'
    require 'rack/test'
+   require 'logger'
+
+   remote = YAML.load_file('config.yaml')['github']['remote']
 
    browser = Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application))
 
@@ -41,18 +44,24 @@ task :github do
    browser.get '/style.css'
    css = browser.last_response.body
 
-   root = '/tmp/checkout'
-   g = Git.clone('.', root)
+   root = "/tmp/checkout-#{Time.now.to_i}"
+   g = Git.clone(remote, root, :log => Logger.new(STDOUT))
 
    # Make sure this actually switches branches.
-   g.branch('gh-pages')
-   File.open("#{root}/index.html", 'w') {|f| p f; f.write(html) }
+   g.checkout(g.branch('gh-pages'))
+
+   # Write and commit
+   File.open("#{root}/index.html", 'w') {|f| f.write(html) }
    File.open("#{root}/style.css", 'w') {|f| f.write(css) }
+
    g.add('index.html');
    g.add('style.css');
    g.commit('updating github page')
 
-   # now just need an abstract way to push back to github.
+   # PUSH!
+   g.push(g.remote('origin'), g.branch('gh-pages'))
+
+   puts '--> Commit and Push successful.'
 end
 
 
