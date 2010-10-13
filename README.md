@@ -1,21 +1,28 @@
 # Resume
 
 This started as just a simple place to store a markdown format of my resume,
-and now it's turned into an easy way to host your resume using sinatra and
-Heroku.
+and now it's turned into an easy way to host your resume using [sinatra][s],
+[github-pages][gp] or [Heroku][h].
+
+[gp]: http://pages.github.com/
+[h]: http://heroku.com/
 
 ## Installation
 
  1. Fork this project
  2. Modify resume.md to be your resume.
- 3. Install the gems [sinatra][s], [github-markup][gm], and [less][l]
+ 3. Modify config.yaml so that the data represents you, not icco.
+ 4. Edit views/style.less to make your resume look pretty.
+ 5. Install the gems [sinatra][s], [github-markup][gm], [git][g], [rack-test][rt], [heroku][h] and [less][l]
    * each of these has requirements to work correctly, such as [rdiscount][r] for [github-markup][gm]
- 4. To deploy to Heroku, also install the heroku gem
+ 6. type `rake` or `./resume.rb` to run locally. 
+ 7. To deploy to Heroku
    * Run `heroku create`
- 5. type `rake` or `./resume.rb` to run locally. 
- 6. Edit views/style.less to make your resume look pretty.
- 7. `rake deploy` to push your resume to the internet.
+   * `rake deploy` to push your resume to the internet.
+ 8. To deploy to [github-pages][gp], run `rake github`.
 
+[g]: http://github.com/schacon/ruby-git
+[rt]: http://github.com/brynary/rack-test
 [s]: http://www.sinatrarb.com/
 [r]: http://github.com/rtomayko/rdiscount
 [l]: http://lesscss.org/

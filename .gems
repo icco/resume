@@ -1,4 +1,7 @@
 less
+git
 sinatra
 rdiscount
 github-markup
+rack-test
+heroku
