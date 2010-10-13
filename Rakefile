@@ -29,7 +29,6 @@ desc "deploy to user.github.com/Resume"
 task :github do
    require 'git'
    require 'resume'
-   require 'test/unit'
    require 'rack/test'
 
    browser = Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application))
@@ -42,13 +41,18 @@ task :github do
    browser.get '/style.css'
    css = browser.last_response.body
 
-   root = '/tmp/checkout/'
-   g = Git.clone('.', :path => root)
+   root = '/tmp/checkout'
+   g = Git.clone('.', root)
+
+   # Make sure this actually switches branches.
    g.branch('gh-pages')
-   File.open("#{root}index.html", 'w') {|f| p f; f.write(doc) }
-   File.open("#{root}style.css", 'w') {|f| f.write(doc) }
-   g.commit_all('updating github page')
-   g.push
+   File.open("#{root}/index.html", 'w') {|f| p f; f.write(html) }
+   File.open("#{root}/style.css", 'w') {|f| f.write(css) }
+   g.add('index.html');
+   g.add('style.css');
+   g.commit('updating github page')
+
+   # now just need an abstract way to push back to github.
 end
 
 
