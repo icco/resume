@@ -4,20 +4,20 @@
  * <http://natwelch.com>
  * 707-799-8675
 
-## Skills Summary
+## Background
 
-I am a current student of Computer Science with an interest in communication
-and design. I am a big believer in experimenting with new things to expand my
-knowledge both professionally and recreationally. I strive to be a quick
-learner and both a competent leader and a capable worker. I have received the
-rank of Eagle Scout and was an active officer of the Cal Poly Linux Users Group
-for two years. I was awarded Cal Poly's Residence Hall Council member of the
-year for both 2006 and 2007.
+I am a current student of Computer Science at Cal Poly with an interest in
+communication and design. I am a big believer in experimenting with new things
+to expand my knowledge both professionally and recreationally. I strive to be a
+quick learner and both a competent leader and capable worker. I am an Eagle
+Scout and was an active officer of the Cal Poly Linux Users Group for three
+years. I was awarded Cal Poly's Residence Hall Council member of the year for
+both 2006 and 2007.
 
 ## Education
 
 Computer Science Major, English Minor  
-Fall 2006 - Present  
+Fall 2006 - Spring 2011
 California Polytechnic State University, San Luis Obispo  
 
 ## Systems Proficiency
@@ -26,7 +26,7 @@ California Polytechnic State University, San Luis Obispo
 
  > Proficient in:  PHP, Ruby, HTML, CSS, JavaScript, C, Java, SQL (MySQL, SQLite), Bash
 
- > Experience with: ML, F#, Python
+ > Experience with: ML, F#, Python, C++, MongoDB
 
 **Software**
 
@@ -39,6 +39,8 @@ California Polytechnic State University, San Luis Obispo
 #### Software Developer
 
 ##### April 2009 - Present
+
+I wear a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I write code mainly in PHP and Bash, and almost all of our servers are on Amazon's EC2 Service. 
 
  * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
  * Helped maintain various servers, located on Amazon EC2, and local development machines
