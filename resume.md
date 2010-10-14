@@ -55,6 +55,7 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
  * Helped maintain the Server Matrix, Bug-base, and test a new test case Application
  * Helped develop and test the Web Widgets Feature for Dreamweaver CS4.
 
+<!--
 ### California Polytechnic State University, San Luis Obispo CA
 
 #### Computer Science Lab Monitor
@@ -70,6 +71,7 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 ##### June 2005 to Sept. 2005
  
  * Built and maintained three separate websites, one dealing with unions, one system uptime web application, and one error reporting web form.
+-->
 
 ### BSA Camp Oljato, Lakeshore CA
 
