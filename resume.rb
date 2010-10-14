@@ -16,7 +16,11 @@ get '/' do
    name  = settings.config['name']
    title = "#{name}'s Resume"
    resume = GitHub::Markup.render(rfile, File.read(rfile))
-   erb :index, :locals => { :title => title, :resume => resume }
+   erb :index, :locals => { 
+      :title => title, 
+      :resume => resume,
+      :author => name
+   }
 end
 
 get '/style.css' do
