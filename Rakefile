@@ -58,7 +58,7 @@ task :github do
 
    g.add('index.html');
    g.add('style.css');
-   g.commit('updating github page')
+   g.commit('Regenerating Github Pages page.')
 
    # PUSH!
    g.push(g.remote('origin'), g.branch('gh-pages'))
