@@ -28,3 +28,8 @@ get '/style.css' do
    less :style
 end
 
+get '/print.css' do
+   content_type 'text/css', :charset => 'utf-8'
+   less :print
+end
+
