@@ -26,6 +26,7 @@ task :deploy do
    heroku.restart(app)
 end
 
+# TODO: Make this dynamically figure out all of the files needed
 desc "deploy to user.github.com/Resume"
 task :github do
    require 'resume'
@@ -44,7 +45,11 @@ task :github do
 
    # get style.css
    browser.get '/style.css'
-   css = browser.last_response.body
+   css1 = browser.last_response.body
+
+   # get style.css
+   browser.get '/print.css'
+   css2 = browser.last_response.body
 
    root = "/tmp/checkout-#{Time.now.to_i}"
    g = Git.clone(remote, root, :log => Logger.new(STDOUT))
@@ -54,7 +59,8 @@ task :github do
 
    # Write and commit
    File.open("#{root}/index.html", 'w') {|f| f.write(html) }
-   File.open("#{root}/style.css", 'w') {|f| f.write(css) }
+   File.open("#{root}/style.css", 'w') {|f| f.write(css1) }
+   File.open("#{root}/print.css", 'w') {|f| f.write(css2) }
 
    g.add('index.html');
    g.add('style.css');
