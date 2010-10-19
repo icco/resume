@@ -26,7 +26,7 @@ California Polytechnic State University, San Luis Obispo
 
  > Proficient in:  PHP, Ruby, SML/NJ, HTML, CSS, JavaScript, C, Java, SQL (MySQL, SQLite), Bash
 
- > Experience with: OCAML, F#, Python, C++, MongoDB
+ > Experience with: F#, Python, C++, MongoDB
 
 **Software**
 
