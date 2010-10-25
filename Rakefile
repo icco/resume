@@ -63,7 +63,8 @@ task :github do
    File.open("#{root}/print.css", 'w') {|f| f.write(css2) }
 
    g.add('index.html');
-   g.add('*.css');
+   g.add('print.css');
+   g.add('style.css');
    g.commit('Regenerating Github Pages page.')
 
    # PUSH!
