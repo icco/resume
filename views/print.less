@@ -1,3 +1,7 @@
+/**
+ * Resume print style sheet.
+ * Attempts to make the page similar, but better looking on paper.
+ */
 
 * {
    margin: 0;
@@ -7,7 +11,7 @@
 body {
    background: white;
    color: black;
-   line-height: 1.4em;
+   // line-height: 1.4em;
    font-family: serif;
 }
 
@@ -25,7 +29,7 @@ body {
 
    h1 {
       font-size: 170% !important;
-      border-top: 4px solid #aaa !important;
+      // border-top: 4px solid #aaa !important;
       padding-top: .5em !important;
       margin-top: 1.5em !important;
    }
@@ -38,7 +42,7 @@ body {
    h2 {
       font-size: 150% !important;
       margin-top: 1.5em !important;
-      border-top: 4px solid #e0e0e0 !important;
+      // border-top: 4px solid #e0e0e0 !important;
       padding-top: .5em !important;
    }
 
@@ -57,6 +61,20 @@ body {
       padding-left: 0.6em;
    }
 
+   ul, ol {
+      margin: 1em 0 1em 2em !important;
+
+      li {
+         margin-top: .5em;
+         margin-bottom: .5em;
+      }
+
+      ul, ol {
+         margin-top: 0!important;
+         margin-bottom: 0!important;
+      }
+   }
+
    a, a:visited {
       text-decoration: none;
    }
@@ -68,25 +86,20 @@ body {
    pre {
       margin: 1em 0!important;
       font-size: 12px!important;
-      background-color: #f8f8ff!important;
       border: 1px solid #dedede!important;
       padding: .5em!important;
       line-height: 1.5em!important;
-      color: #444!important;
       overflow: auto!important;
    }
 
    pre code {
       padding: 0!important;
       font-size: 12px!important;
-      background-color: #f8f8ff!important;
       border: none!important;
    }
 
    code {
       font-size: 12px!important;
-      background-color: #f8f8ff!important;
-      color: #444!important;
       padding: 0 .2em!important;
       border: 1px solid #dedede!important;
    }
@@ -99,7 +112,6 @@ body {
       margin: 1em 0!important;
       border-left: 5px solid #ddd!important;
       padding-left: .6em!important;
-      color: #555!important;
    }
 
    dt {
