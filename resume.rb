@@ -19,7 +19,8 @@ get '/' do
    erb :index, :locals => { 
       :title => title, 
       :resume => resume,
-      :author => name
+      :author => name,
+      :key => settings.config['gkey']
    }
 end
 
