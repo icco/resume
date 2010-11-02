@@ -1,6 +1,7 @@
-task :default => [:build]
+task :default => [:deploy, :github]
 
-task :build do
+desc "Run your resume locally."
+task :local do
    exec('./resume.rb')
 end
 
@@ -27,7 +28,7 @@ task :deploy do
 end
 
 # TODO: Make this dynamically figure out all of the files needed
-desc "deploy to user.github.com/Resume"
+desc "Deploy to remote defined in config.yaml"
 task :github do
    require 'resume'
    require 'rubygems'
