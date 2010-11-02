@@ -40,17 +40,13 @@ task :github do
 
    browser = Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application))
 
-   # Get index.html
-   browser.get '/'
-   html = browser.last_response.body
+   files = [
+      '/index.html',
+      '/print.css',
+      '/style.css',
+      '/resume.txt'
+   ]
 
-   # get style.css
-   browser.get '/style.css'
-   css1 = browser.last_response.body
-
-   # get style.css
-   browser.get '/print.css'
-   css2 = browser.last_response.body
 
    root = "/tmp/checkout-#{Time.now.to_i}"
    g = Git.clone(remote, root, :log => Logger.new(STDOUT))
@@ -58,14 +54,14 @@ task :github do
    # Make sure this actually switches branches.
    g.checkout(g.branch('gh-pages'))
 
-   # Write and commit
-   File.open("#{root}/index.html", 'w') {|f| f.write(html) }
-   File.open("#{root}/style.css", 'w') {|f| f.write(css1) }
-   File.open("#{root}/print.css", 'w') {|f| f.write(css2) }
+   files.each {|file|
+      browser.get file
+      content = browser.last_response.body
+      File.open("#{root}#{file}", 'w') {|f| f.write(content) }
+      g.add(File.basename(file))
+   }
 
-   g.add('index.html');
-   g.add('print.css');
-   g.add('style.css');
+
    g.commit('Regenerating Github Pages page.')
 
    # PUSH!
