@@ -20,9 +20,16 @@ get '/' do
       :title => title, 
       :resume => resume,
       :author => name,
-      :key => settings.config['gkey']
+      :key => settings.config['gkey'],
+      :filename => rfile
    }
 end
+
+get '/resume.txt' do
+   content_type 'text/plain', :charset => 'utf-8'
+   File.read(settings.config['file'])
+end
+
 
 get '/style.css' do
    content_type 'text/css', :charset => 'utf-8'

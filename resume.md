@@ -16,7 +16,7 @@ both 2006 and 2007.
 
 ## Education
 
-Computer Science Major, English Minor  
+Computer Science, B.S.  
 Fall 2006 - Spring 2011  
 California Polytechnic State University, San Luis Obispo  
 
