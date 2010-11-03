@@ -1,4 +1,4 @@
-task :default => [:deploy, :github]
+task :default => [:github, :deploy]
 
 desc "Run your resume locally."
 task :local do
