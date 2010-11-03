@@ -11,7 +11,7 @@ configure do
    set :config, YAML.load_file('config.yaml')['user_config']
 end
 
-get '/' do
+get '/index.html' do
    rfile = settings.config['file']
    name  = settings.config['name']
    title = "#{name}'s Resume"
@@ -23,6 +23,10 @@ get '/' do
       :key => settings.config['gkey'],
       :filename => rfile
    }
+end
+
+get '/' do
+   redirect '/index.html'
 end
 
 get '/resume.txt' do
