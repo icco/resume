@@ -14,8 +14,8 @@ and now it's turned into an easy way to host your resume using [sinatra][s],
  3. Modify config.yaml so that the data represents you, not icco.
  4. Edit views/style.less to make your resume look pretty.
  5. Install the gems [sinatra][s], [github-markup][gm], [git][g], [rack-test][rt], [heroku][h] and [less][l]
-   * each of these has requirements to work correctly, such as [rdiscount][r] for [github-markup][gm]
- 6. type `rake` or `./resume.rb` to run locally. 
+   * install the correct parser for [github-markup][gm], such as [rdiscount][r] for [Markdown][md].
+ 6. type `rake local` or `./resume.rb` to run locally. 
  7. To deploy to Heroku
    * Run `heroku create`
    * `rake deploy` to push your resume to the internet.
@@ -27,6 +27,7 @@ and now it's turned into an easy way to host your resume using [sinatra][s],
 [r]: http://github.com/rtomayko/rdiscount
 [l]: http://lesscss.org/
 [gm]: http://github.com/github/markup
+[md]: http://en.wikipedia.org/wiki/Markdown
 
 ## Other cool stuff
 
