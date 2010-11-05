@@ -1,11 +1,28 @@
 #!/usr/bin/env ruby
 # An app for displaying one's resume
 
-require "rubygems"
-require "sinatra"
-require "less"
-require "github/markup"
-require "yaml"
+begin
+   require "rubygems"
+rescue LoadError
+   puts "Please install Ruby Gems to continue."
+   exit
+end
+
+# Check all of the gems we need are there.
+[
+   "sinatra",
+   "less",
+   "github/markup",
+   "yaml"
+].each {|gem|
+   begin
+      require gem
+   rescue LoadError
+      puts "The gem #{gem} is not installed.\n"
+      exit
+   end
+}
+
 
 configure do
    set :config, YAML.load_file('config.yaml')['user_config']
