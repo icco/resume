@@ -48,7 +48,6 @@ task :github do
       '/favicon.ico'
    ]
 
-
    root = "/tmp/checkout-#{Time.now.to_i}"
    g = Git.clone(remote, root, :log => Logger.new(STDOUT))
 
@@ -62,13 +61,11 @@ task :github do
       g.add(File.basename(file))
    }
 
-
-   g.commit('Regenerating Github Pages page.')
+   g.commit('Regenerating Github Pages.')
 
    # PUSH!
    g.push(g.remote('origin'), g.branch('gh-pages'))
 
    puts '--> Commit and Push successful.'
 end
-
 
