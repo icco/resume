@@ -44,7 +44,8 @@ task :github do
       '/index.html',
       '/print.css',
       '/style.css',
-      '/resume.txt'
+      '/resume.txt',
+      '/favicon.ico'
    ]
 
 
