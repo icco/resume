@@ -1,4 +1,4 @@
-task :default => [:github, :deploy]
+task :default => [:github, :heroku]
 
 desc "Run your resume locally."
 task :local do
@@ -6,25 +6,10 @@ task :local do
 end
 
 desc "Deploy to Heroku."
-task :deploy do
-   require 'rubygems'
-   require 'heroku'
-   require 'heroku/command'
-   user, pass = File.read(File.expand_path("~/.heroku/credentials")).split("\n")
-   heroku = Heroku::Client.new(user, pass)
+task :heroku do
+   #`git push heroku master`
 
-   cmd = Heroku::Command::BaseWithApp.new([])
-   remotes = cmd.git_remotes(File.dirname(__FILE__) + "/../..")
-
-   remote, app = remotes.detect {|key, value| value == (ENV['APP'] || cmd.app)}
-
-   if remote.nil?
-      raise "Could not find a git remote for the '#{ENV['APP']}' app"
-   end
-
-   `git push #{remote} master`
-
-   heroku.restart(app)
+   puts "Currently this is broken.\n"
 end
 
 # TODO: Make this dynamically figure out all of the files needed
