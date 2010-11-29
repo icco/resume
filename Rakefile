@@ -15,7 +15,7 @@ end
 # TODO: Make this dynamically figure out all of the files needed
 desc "Deploy to remote defined in config.yaml"
 task :github do
-   require 'resume'
+   require File.expand_path('../resume',__FILE__)
    require 'rubygems'
    require 'git'
    require 'rack/test'
