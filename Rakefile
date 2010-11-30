@@ -9,7 +9,7 @@ desc "Deploy to Heroku."
 task :heroku do
    #`git push heroku master`
 
-   puts "Currently this is broken.\n"
+   puts "Currently heroku deployment is broken.\n"
 end
 
 # TODO: Make this dynamically figure out all of the files needed
