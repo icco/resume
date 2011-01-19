@@ -36,9 +36,7 @@ California Polytechnic State University, San Luis Obispo
 
 ### iFixit.com, San Luis Obispo CA
 
-#### Software Developer
-
-##### April 2009 - Present
+#### Software Developer - April 2009 to Present
 
 I wear a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I write code mainly in PHP and Bash, and almost all of our servers are on Amazon's EC2 Service. 
 
@@ -47,9 +45,7 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 
 ### Adobe Systems Incorporated, San Francisco CA
 
-#### Dreamweaver QE Intern
-
-##### Summer 2007 and 2008
+#### Dreamweaver QE Intern - Summer 2007 and 2008
 
  * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
  * Helped maintain the Server Matrix, Bug-base, and test a new test case Application
@@ -58,9 +54,7 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 <!--
 ### California Polytechnic State University, San Luis Obispo CA
 
-#### Computer Science Lab Monitor
-
-##### Sept. 2006 to June 2007
+#### Computer Science Lab Monitor - September 2006 to June 2007
 
  * Maintained printers and computers for seven labs.
 
@@ -75,16 +69,12 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 
 ### BSA Camp Oljato, Lakeshore CA
 
-#### Nature Director
-
-##### Summer 2006
+#### Nature Director - Summer 2006
 
  * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks.
  * Updated and revised the Forest Management Plan and organized conservation projects throughout camp.
 
-#### Camp Counselor
-
-##### Summer 2002, 2003 and 2004
+#### Camp Counselor - Summer 2002, 2003 and 2004
 
  * Took care of children ages ten to eighteen and responsible for creating and planning daily schedules for my classes.
  * Taught merit badge classes such as wilderness survival, camping, hiking, and others.
