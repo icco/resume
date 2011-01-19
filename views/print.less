@@ -27,7 +27,7 @@ body {
    }
 
    h1, h2, h3, h4, h5, h6 {
-      border: 0;
+      border: 0 !important;
    }
 
    h1 {
@@ -35,7 +35,7 @@ body {
    }
 
    h1:first-child {
-      font-size: 170%;
+      font-size: 210%;
    }
 
    h2 {
@@ -45,17 +45,22 @@ body {
    h3 {
       margin-top: 0.6em;
       font-size: 130%;
+      margin-bottom: 0;
    }
 
    p {
-      margin: 1em 0;
+      margin: 0.6em 0;
       line-height: 1.5em;
    }
 
    blockquote {
-      border-left: 5px solid #DDDDDD;
-      margin: 1em 0;
-      padding-left: 0.6em;
+      border: 0 !important;
+      margin: 0.5em 0 !important;
+      padding-left: 0.6em !important;
+
+      p {
+         margin: 0.2em 0;
+      }
    }
 
    ul, ol {
