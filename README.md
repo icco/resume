@@ -33,9 +33,9 @@ and now it's turned into an easy way to host your resume using [sinatra][s],
 
 My idea is pretty simple, I just wanted a plain text resume and an easy way to
 host it. [Dan Mayer][dm] took this idea and ran with it. He made a lot of
-really cool changes, and in although I love simplicity, I really love how much
-he abstracted out of my original design. You should really check out his
-resume, and some of the forks of it.
+really cool changes, and although I love simplicity, what I really love is how
+much he abstracted my original design. You should really check out his resume,
+and some of the forks of it.
 
 [dm]: http://github.com/danmayer/Resume
 
