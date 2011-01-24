@@ -15,7 +15,7 @@ and now it's turned into an easy way to host your resume using [sinatra][s],
  4. Edit views/style.less to make your resume look pretty.
  5. Install the gems [sinatra][s], [github-markup][gm], [git][g], [rack-test][rt], [heroku][h] and [less][l]
    * install the correct parser for [github-markup][gm], such as [rdiscount][r] for [Markdown][md].
- 6. type `rake local` or `./resume.rb` to run locally. 
+ 6. type `rake local` or `./resume.rb` to run locally.
  7. To deploy to Heroku
    * Run `heroku create`
    * `rake deploy` to push your resume to the internet.
