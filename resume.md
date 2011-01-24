@@ -45,7 +45,7 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 
 ### Adobe Systems Incorporated, San Francisco CA
 
-#### Dreamweaver QE Intern - Summer 2007 and 2008
+#### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
 
  * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
  * Helped maintain the Server Matrix, Bug-base, and test a new test case Application
@@ -70,14 +70,10 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 ### BSA Camp Oljato, Lakeshore CA
 
 #### Nature Director - Summer 2006
+#### Camp Counselor - Summer 2002, 2003 and 2004
 
  * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks.
  * Updated and revised the Forest Management Plan and organized conservation projects throughout camp.
-
-#### Camp Counselor - Summer 2002, 2003 and 2004
-
  * Took care of children ages ten to eighteen and responsible for creating and planning daily schedules for my classes.
  * Taught merit badge classes such as wilderness survival, camping, hiking, and others.
- * Dealt with their scoutmasters, which were usually older adults around the age of 40 to 60
  * Dealt with medical emergencies ranging from altitude sickness and dehydration to broken ribs.
-
