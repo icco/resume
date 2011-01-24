@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # An app for displaying one's resume
+# @author Nat Welch - https://github.com/icco/Resume
 
 begin
    require "rubygems"
@@ -23,7 +24,6 @@ end
    end
 }
 
-
 configure do
    set :config, YAML.load_file('config.yaml')['user_config']
 end
@@ -33,8 +33,8 @@ get '/index.html' do
    name  = settings.config['name']
    title = "#{name}'s Resume"
    resume = GitHub::Markup.render(rfile, File.read(rfile))
-   erb :index, :locals => { 
-      :title => title, 
+   erb :index, :locals => {
+      :title => title,
       :resume => resume,
       :author => name,
       :key => settings.config['gkey'],
