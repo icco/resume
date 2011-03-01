@@ -17,9 +17,16 @@ desc "Deploy to remote defined in config.yaml"
 task :github do
    require File.expand_path('../resume',__FILE__)
    require 'rubygems'
-   require 'git'
-   require 'rack/test'
-   require 'logger'
+
+   # Nice Error checking for gems.
+   [ 'git', 'rack/test', 'logger' ].each {|gem|
+      begin
+         require gem
+      rescue LoadError
+         puts "The gem #{gem} is not installed.\n"
+         exit
+      end
+   }
 
    remote = YAML.load_file('config.yaml')['github']['remote']
 
