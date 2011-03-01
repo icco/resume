@@ -42,7 +42,7 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 #### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
 
  * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
- * Helped maintain the Server Matrix, Bug-base, and test a new test case Application
+ * Helped maintain the Server Matrix, Bug-base, and test a new test case application
  * Helped develop and test the Web Widgets Feature for Dreamweaver CS4.
 
 <!--
