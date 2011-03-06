@@ -7,9 +7,39 @@ task :local do
    exec('./resume.rb')
 end
 
+# Based off of http://railspikes.com/2010/2/13/rake-task-for-deploying-to-heroku
 desc "Deploy to Heroku."
 task :heroku do
-   puts "Currently heroku deployment is broken.\n"
+   [ 'heroku', 'heroku/command', 'git' ].each {|gem|
+      begin
+         require gem
+      rescue LoadError
+         puts "The gem #{gem} is not installed.\n"
+         exit
+      end
+   }
+
+   puts 'Deploying to Heroku. If you haven\'t run heroku create before, this will fail.'
+
+   # Get users credentials
+   user, pass = File.read(File.expand_path("~/.heroku/credentials")).split("\n")
+   heroku = Heroku::Client.new(user, pass)
+
+   cmd = Heroku::Command::BaseWithApp.new([])
+   remotes = cmd.git_remotes '.'
+   remote, app = remotes.detect {|key, value| value == (ENV['APP'] || cmd.app)}
+
+   if remote.nil?
+      raise "Could not find a git remote for the '#{ENV['APP']}' app"
+   end
+
+   g = Git.open('.')
+   g.push(g.remote(remote))
+
+   heroku.rake(app, "db:migrate")
+   heroku.restart(app)
+
+   puts '--> Heroku Push successful.'
 end
 
 # TODO: Make this dynamically figure out all of the files needed
@@ -58,5 +88,5 @@ task :github do
    # PUSH!
    g.push(g.remote('origin'), g.branch('gh-pages'))
 
-   puts '--> Commit and Push successful.'
+   puts '--> GitHub Pages Commit and Push successful.'
 end
