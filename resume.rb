@@ -10,12 +10,7 @@ rescue LoadError
 end
 
 # Check all of the gems we need are there.
-[
-   "sinatra",
-   "less",
-   "github/markup",
-   "yaml"
-].each {|gem|
+[ "sinatra", "less", "github/markup", "yaml" ].each {|gem|
    begin
       require gem
    rescue LoadError
@@ -24,10 +19,12 @@ end
    end
 }
 
+# Include our configurations from config.yaml
 configure do
    set :config, YAML.load_file('config.yaml')['user_config']
 end
 
+# Render the main page.
 get '/index.html' do
    rfile = settings.config['file']
    name  = settings.config['name']
@@ -42,15 +39,16 @@ get '/index.html' do
    }
 end
 
+# We do this for our static site rendering.
 get '/' do
    redirect '/index.html'
 end
 
+# For the plain text version of our resumes
 get '/resume.txt' do
    content_type 'text/plain', :charset => 'utf-8'
    File.read(settings.config['file'])
 end
-
 
 get '/style.css' do
    content_type 'text/css', :charset => 'utf-8'
@@ -61,4 +59,3 @@ get '/print.css' do
    content_type 'text/css', :charset => 'utf-8'
    less :print
 end
-

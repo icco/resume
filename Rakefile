@@ -1,3 +1,5 @@
+# The Rakefile does all of the real work.
+
 task :default => [:github, :heroku]
 
 desc "Run your resume locally."
@@ -7,8 +9,6 @@ end
 
 desc "Deploy to Heroku."
 task :heroku do
-   #`git push heroku master`
-
    puts "Currently heroku deployment is broken.\n"
 end
 
@@ -60,4 +60,3 @@ task :github do
 
    puts '--> Commit and Push successful.'
 end
-
