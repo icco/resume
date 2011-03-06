@@ -12,15 +12,11 @@ This started as just a simple place to store a markdown format of my resume, and
  3. Modify config.yaml so that the data represents you, not icco.
  4. Edit views/style.less to make your resume look pretty.
  5. Install the gems [sinatra][s], [github-markup][gm], [git][g], [rack-test][rt], [heroku][h] and [less][l]
-
    * install the correct parser for [github-markup][gm], such as [rdiscount][r] for [Markdown][md].
-
  6. type `rake local` or `./resume.rb` to run locally.
  7. To deploy to Heroku
-
    * Run `heroku create`
    * `rake deploy` to push your resume to the internet.
-
  8. To deploy to [github-pages][gp], run `rake github`.
 
 [g]: http://github.com/schacon/ruby-git
