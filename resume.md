@@ -6,7 +6,7 @@
 
 ## Background
 
-I am a current student of Computer Science at Cal Poly with an interest in communication and design. I am a big believer in experimenting with new things to expand my knowledge both professionally and recreationally. I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007.
+I am a current student of Computer Science at Cal Poly with an interest in communication and design. I am a big believer in experimenting with new things to expand my knowledge both professionally and recreationally. I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
 
 ## Education
 
@@ -36,6 +36,8 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 
  * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
  * Helped maintain various servers, located on Amazon EC2, and local development machines
+ * Developed the first JavaScript widget for iFixit's API.
+ * Redefined iFixit's developer work flow
 
 ### Adobe Systems Incorporated, San Francisco CA
 
@@ -43,7 +45,7 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
 
  * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
  * Helped maintain the Server Matrix, Bug-base, and test a new test case application
- * Helped develop and test the Web Widgets Feature for Dreamweaver CS4.
+ * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
 
 <!--
 ### California Polytechnic State University, San Luis Obispo CA
@@ -71,3 +73,4 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
  * Took care of children ages ten to eighteen and responsible for creating and planning daily schedules for my classes.
  * Taught merit badge classes such as wilderness survival, camping, hiking, and others.
  * Dealt with medical emergencies ranging from altitude sickness and dehydration to broken ribs.
+
