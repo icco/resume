@@ -72,5 +72,4 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
  * Updated and revised the Forest Management Plan and organized conservation projects throughout camp.
  * Took care of children ages ten to eighteen and responsible for creating and planning daily schedules for my classes.
  * Taught merit badge classes such as wilderness survival, camping, hiking, and others.
- * Dealt with medical emergencies ranging from altitude sickness and dehydration to broken ribs.
 
