@@ -30,7 +30,7 @@ California Polytechnic State University, San Luis Obispo
 
 ### iFixit.com, San Luis Obispo CA
 
-#### Software Developer - April 2009 to Present
+#### Software Developer - April 2009 to April 2011
 
 I wear a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I write code mainly in PHP and Bash, and almost all of our servers are on Amazon's EC2 Service. 
 
