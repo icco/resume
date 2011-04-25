@@ -3,7 +3,7 @@
 My dad gave me this a while back. It's basically a list of stuff people commonly ask in interviews. Tends to be more focused for larger companies / more business oriented jobs, but it's still something great to think about.
 
  1. Tell me about yourself
- 2. What are your key accomplishments (SOAR)
+ 2. What are your key accomplishments?
  3. Strengths and weaknesses
  4. Reasons for leaving
  5. Management style
