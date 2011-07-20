@@ -64,9 +64,10 @@ task :github do
 
    files = [
       '/index.html',
-      '/print.css',
-      '/style.css',
+      '/print.less',
+      '/style.less',
       '/resume.txt',
+      '/less-1.1.3.min.js',
       '/favicon.ico'
    ]
 
