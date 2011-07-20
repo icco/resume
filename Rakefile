@@ -42,7 +42,7 @@ task :heroku do
    puts '--> Heroku Push successful.'
 end
 
-# TODO: Make this dynamically figure out all of the files needed
+# TODO: Make this dynamically figure out all of the files needed from Sinatra.
 desc "Deploy to remote defined in config.yaml"
 task :github do
    require File.expand_path('../resume',__FILE__)
@@ -63,13 +63,11 @@ task :github do
    browser = Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application))
 
    files = [
-      '/index.html',
-      '/print.less',
-      '/style.less',
-      '/resume.txt',
-      '/less-1.1.3.min.js',
-      '/favicon.ico'
+      'index.html',
+      'resume.txt',
    ]
+
+   files = files + Dir.entries("public").keep_if {|file| File.file? "public/#{file}"}
 
    root = "/tmp/checkout-#{Time.now.to_i}"
    g = Git.clone(remote, root, :log => Logger.new(STDOUT))
@@ -80,7 +78,7 @@ task :github do
    files.each {|file|
       browser.get file
       content = browser.last_response.body
-      File.open("#{root}#{file}", 'w') {|f| f.write(content) }
+      File.open("#{root}/#{file}", 'w') {|f| f.write(content) }
       g.add(File.basename(file))
    }
 
