@@ -49,13 +49,3 @@ get '/resume.txt' do
    content_type 'text/plain', :charset => 'utf-8'
    File.read(settings.config['file'])
 end
-
-get '/style.css' do
-   content_type 'text/css', :charset => 'utf-8'
-   less :style
-end
-
-get '/print.css' do
-   content_type 'text/css', :charset => 'utf-8'
-   less :print
-end

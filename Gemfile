@@ -1,6 +1,5 @@
 source "http://rubygems.org"
 
-gem 'less'
 gem 'git'
 gem 'sinatra'
 gem 'rdiscount'
