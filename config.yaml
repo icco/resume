@@ -16,7 +16,7 @@ user_config:
    gkey: 'UA-333449-7'
 
 # For github pages to work, this needs to be the GitHub repository this file is
-# storred in.
+# stored in.
 github:
    remote: 'git@github.com:icco/Resume.git'
 
