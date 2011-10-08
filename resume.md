@@ -28,6 +28,13 @@ California Polytechnic State University, San Luis Obispo
 
 ## Experience
 
+### Punchd & Google.com, Mountain View, CA
+
+#### Software Engineer - May 2011 to present
+
+I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. At Google I have been working on merging Google's scale with Punchd's ingenuity and speed to help redefine loyalty.
+
+
 ### iFixit.com, San Luis Obispo CA
 
 #### Software Developer - April 2009 to April 2011
