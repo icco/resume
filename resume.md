@@ -53,29 +53,11 @@ I wear a variety of hats including -- but not limited to -- writing code to prom
  * Helped maintain the Server Matrix, Bug-base, and test a new test case application
  * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
 
-<!--
-### California Polytechnic State University, San Luis Obispo CA
-
-#### Computer Science Lab Monitor - September 2006 to June 2007
-
- * Maintained printers and computers for seven labs.
-
-### Sonoma County Information Systems Department, Santa Rosa CA
-
-#### Intern
-
-##### June 2005 to Sept. 2005
- 
- * Built and maintained three separate websites, one dealing with unions, one system uptime web application, and one error reporting web form.
--->
-
 ### BSA Camp Oljato, Lakeshore CA
 
 #### Nature Director - Summer 2006
 #### Camp Counselor - Summer 2002, 2003 and 2004
 
- * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks.
- * Updated and revised the Forest Management Plan and organized conservation projects throughout camp.
- * Took care of children ages ten to eighteen and responsible for creating and planning daily schedules for my classes.
- * Taught merit badge classes such as wilderness survival, camping, hiking, and others.
+ * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer.
+ * Taught merit badge classes such as wilderness survival, camping, hiking, and others to children ages ten to eighteen.
 
