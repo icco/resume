@@ -2,21 +2,20 @@
 
 # Stuff about you.
 user_config:
-   # Your Name. This will be used for the page title
-   name: 'Nathaniel Welch'
+  # Your Name. This will be used for the page title
+  name: 'Nathaniel Welch'
 
-   # The file you want to parse to be your resume
-   # Must be a format supported by github-markup
-   file: 'resume.md'
+  # The file you want to parse to be your resume
+  # Must be a format supported by github-markup
+  file: 'resume.md'
 
-   # A picture of you. Should be a complete url
-   pic: 'http://farm5.static.flickr.com/4044/4529365975_dd958b4ba1.jpg'
+  # A picture of you. Should be a complete url
+  pic: 'http://farm5.static.flickr.com/4044/4529365975_dd958b4ba1.jpg'
 
-   # The google analytics key you wish to use.
-   gkey: 'UA-333449-7'
+  # The google analytics key you wish to use.
+  gkey: 'UA-333449-7'
 
 # For github pages to work, this needs to be the GitHub repository this file is
 # stored in.
 github:
-   remote: 'git@github.com:icco/Resume.git'
-
+  remote: 'git@github.com:icco/Resume.git'
