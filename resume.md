@@ -24,6 +24,8 @@ I have been writing code, running servers and experimenting with new software si
 
 #### Software Engineer - August 2011 to Present 
 
+So far at Google I have worked on the Google Loyalty platform and on the Google Cloud Services platform.
+
 ### Punchd, Mountain View, CA
 
 #### Software Developer - May 2011 to July 2012
