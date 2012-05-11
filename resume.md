@@ -6,7 +6,7 @@
 
 ## Background
 
-I am a current student of Computer Science at Cal Poly with an interest in communication and design. I am a big believer in experimenting with new things to expand my knowledge both professionally and recreationally. I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+I am a software developer with an interest in communication and design. I believe experimenting with new things to expand my knowledge both professionally and recreationally. I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
 
 ## Education
 
@@ -14,26 +14,21 @@ Computer Science, B.S.
 Fall 2006 - Spring 2011  
 California Polytechnic State University, San Luis Obispo  
 
-## Systems Proficiency
+## Proficiency
 
-**Programming Languages**
-
- > Proficient in:  PHP, Ruby, SML/NJ, HTML, CSS, JavaScript, C, Java, SQL (MySQL, SQLite), Bash
-
- > Experience with: F#, Python, C++, MongoDB
-
-**Software**
-
- > I have experience using most modern development tools including Eclipse, Vim, Git and SVN. I have been using Linux for both personal and server use since 2002. I am also capable of using the majority of the Adobe Creative Suite.
+I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Javascript and Bash, but I have experience in C, Python, SML/NJ, C++, SQL and F#.
 
 ## Experience
 
-### Punchd & Google.com, Mountain View, CA
+### Google.com, San Francisco, CA
 
-#### Software Engineer - May 2011 to present
+#### Software Engineer - August 2011 to Present 
 
-I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. At Google I have been working on merging Google's scale with Punchd's ingenuity and speed to help redefine loyalty.
+### Punchd, Mountain View, CA
 
+#### Software Developer - May 2011 to July 2012
+
+I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure, but it was never released.
 
 ### iFixit.com, San Luis Obispo CA
 
