@@ -24,9 +24,13 @@ I have been writing code, running servers and experimenting with new software si
 
 ### Google.com, San Francisco, CA
 
+#### Site Reliability Engineer - April 2012 to Present
+
+I work as an SRE for Google Compute Engine and Google Cloud Storage
+
 #### Software Engineer - August 2011 to Present 
 
-So far at Google I have worked on the Google Loyalty platform and on the Google Cloud Services platform.
+I continue to maintain Punchd, post-acquisition.
 
 ### Punchd, Mountain View, CA
 
