@@ -26,7 +26,7 @@ I have been writing code, running servers and experimenting with new software si
 
 #### Site Reliability Engineer - April 2012 to Present
 
-I work as an SRE for Google Compute Engine and Google Cloud Storage
+I work as an SRE for Google Compute Engine and Google Cloud Storage.
 
 #### Software Engineer - August 2011 to Present 
 
