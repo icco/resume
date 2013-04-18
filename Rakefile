@@ -4,7 +4,7 @@ task :default => [:github, :heroku]
 
 desc "Run your resume locally."
 task :local do
-  exec('./resume.rb')
+  Kernel.exec("shotgun -s thin -p 9393")
 end
 
 # Based off of http://railspikes.com/2010/2/13/rake-task-for-deploying-to-heroku

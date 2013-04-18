@@ -3,23 +3,6 @@
 # An app for displaying one's resume
 # @author Nat Welch - https://github.com/icco/resume
 
-begin
-  require "rubygems"
-rescue LoadError
-  puts "Please install Ruby Gems to continue."
-  exit
-end
-
-# Check all of the gems we need are there.
-[ "sinatra", "less", "github/markup", "yaml" ].each {|gem|
-  begin
-    require gem
-  rescue LoadError
-    puts "The gem #{gem} is not installed.\n"
-    exit
-  end
-}
-
 # Include our configurations from config.yaml
 configure do
   set :config, YAML.load_file('config.yaml')['user_config']
