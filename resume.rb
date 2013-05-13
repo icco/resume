@@ -10,6 +10,7 @@ configure do
   require 'sass/plugin/rack'
   Sass::Plugin.options[:template_location] = "views/css"
   Sass::Plugin.options[:css_location] = "public/css"
+  Sass::Plugin.options[:style] = :compact
   use Sass::Plugin::Rack
 end
 
