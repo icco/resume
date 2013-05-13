@@ -61,7 +61,9 @@ task :github do
   ]
 
   files += Dir.entries("public").keep_if {|file| File.file? "public/#{file}"}
-  files += Dir.entries("public/css").keep_if {|file| File.file? "public/css/#{file}"}
+  files += Dir.entries("public/css").keep_if {|file| File.file? "public/css/#{file}"}.map {|f| "css/#{f}" }
+
+  p files
 
   root = "/tmp/checkout-#{Time.now.to_i}"
   g = Git.clone(remote, root, :log => Logger.new(STDOUT))
@@ -69,11 +71,15 @@ task :github do
   # Make sure this actually switches branches.
   g.checkout(g.branch('gh-pages'))
 
+  Dir.entries(root).keep_if {|f| File.file? f}.each {|f| g.remove f }
+
   files.each {|file|
     browser.get file
     content = browser.last_response.body
+    FileUtils.mkdir_p("#{root}/#{File.dirname(file)}")
     File.open("#{root}/#{file}", 'w') {|f| f.write(content) }
-    g.add("#{root}/#{file}")
+    puts "#{file} => #{root}/#{file}"
+    g.add(file)
   }
 
   g.commit('Regenerating Github Pages.')
