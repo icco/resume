@@ -61,7 +61,7 @@ task :github do
   ]
 
   files += Dir.entries("public").keep_if {|file| File.file? "public/#{file}"}
-  files += Dir.entries("public/css").keep_if {|file| File.file? "public/#{file}"}
+  files += Dir.entries("public/css").keep_if {|file| File.file? "public/css/#{file}"}
 
   root = "/tmp/checkout-#{Time.now.to_i}"
   g = Git.clone(remote, root, :log => Logger.new(STDOUT))
@@ -73,7 +73,7 @@ task :github do
     browser.get file
     content = browser.last_response.body
     File.open("#{root}/#{file}", 'w') {|f| f.write(content) }
-    g.add(File.basename(file))
+    g.add("#{root}/#{file}")
   }
 
   g.commit('Regenerating Github Pages.')
