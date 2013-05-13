@@ -3,10 +3,10 @@
  * @author Nat Welch
  */
 
-@fg:     #333333;
-@bg:     #F9F9F9;
-@link:   #4183C4;
-@border: #E0E0E0;
+$fg:     #333333;
+$bg:     #F9F9F9;
+$link:   #4183C4;
+$border: #E0E0E0;
 
 * {
   margin: 0;
@@ -14,9 +14,9 @@
 }
 
 body {
-  color: @fg;
+  color: $fg;
   line-height: 1.4em;
-  background-color: @bg;
+  background-color: $bg;
   font-family: serif;
   font-size: 0.9em;
 }
@@ -52,7 +52,7 @@ body {
 
   h1 {
     font-size: 170%;
-    border-top: 4px solid @border;
+    border-top: 4px solid $border;
     padding-top: 0.5em;
     margin-top: 1.5em;
   }
@@ -67,7 +67,7 @@ body {
   h2 {
     font-size: 150%;
     margin-top: 1.5em;
-    border-top: 4px solid @border;
+    border-top: 4px solid $border;
     padding-top: 0.5em;
   }
 
@@ -95,13 +95,13 @@ body {
   }
 
   blockquote {
-    border-left: 5px solid @border;
+    border-left: 5px solid $border;
     margin: 1em 0;
     padding-left: 0.6em;
   }
 
   a, a:visited {
-    color: @link;
+    color: $link;
     text-decoration: none;
   }
 
@@ -115,9 +115,9 @@ body {
 
   blockquote {
     margin: 1em 0;
-    border-left: 5px solid @border;
+    border-left: 5px solid $border;
     padding-left: 0.6em;
-    color: @fg;
+    color: $fg;
   }
 
   dt {

@@ -13,7 +13,10 @@ get '/index.html' do
   rfile = settings.config['file']
   name  = settings.config['name']
   title = "#{name}'s Resume"
-  resume = GitHub::Markup.render(rfile, File.read(rfile))
+
+  template = Tilt.new(rfile)
+  resume = template.render
+
   erb :index, :locals => {
     :title => title,
     :resume => resume,
@@ -26,6 +29,11 @@ end
 # We do this for our static site rendering.
 get '/' do
   redirect '/index.html'
+end
+
+get '/css/:name.css' do
+  filename = params[:name]
+  scss filename.to_sym, :views => "#{settings.root}/views/css"
 end
 
 # For the plain text version of our resumes
