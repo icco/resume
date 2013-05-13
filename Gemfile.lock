@@ -1,34 +1,28 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    commonjs (0.2.6)
     daemons (1.1.9)
     eventmachine (1.0.3)
     git (1.2.5)
     github-markup (0.7.5)
-    less (2.3.2)
-      commonjs (~> 0.2.6)
-    libv8 (3.16.14.1)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rdiscount (2.0.7.2)
-    ref (1.0.4)
+    rdiscount (2.0.7.3)
+    sass (3.2.9)
     shotgun (0.9)
       rack (>= 1.0)
     sinatra (1.4.2)
       rack (~> 1.5, >= 1.5.2)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
-    therubyracer (0.11.0)
-      ref
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
-    tilt (1.3.7)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
@@ -36,11 +30,9 @@ PLATFORMS
 DEPENDENCIES
   git
   github-markup
-  less
-  libv8 (~> 3.11)
   rack-test
   rdiscount
+  sass
   shotgun
   sinatra
-  therubyracer
   thin
