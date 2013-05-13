@@ -28,13 +28,13 @@ I have been writing code, running servers and experimenting with new software si
 
 I work as an SRE for Google Compute Engine and Google Cloud Storage.
 
-#### Software Engineer - August 2011 to Present 
+#### Software Engineer - August 2011 to September 2012
 
-I continue to maintain Punchd, post-acquisition.
+As a Software Engineer at Google, I worked on Punchd, Google Offers and Google Local.
 
 ### Punchd, Mountain View, CA
 
-#### Software Developer - May 2011 to July 2012
+#### Software Developer - May 2011 to July 2011
 
 I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure, but it was never released.
 
@@ -49,13 +49,15 @@ I wore a variety of hats including -- but not limited to -- writing code to prom
  * Developed the first JavaScript widget for iFixit's API.
  * Redefined iFixit's developer work flow
 
+<!--
 ### Adobe Systems Incorporated, San Francisco CA
 
 #### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
 
- * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
+ * Tested both daily builds and released versions of Dreamweaver against various operating systems - including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
  * Helped maintain the Server Matrix, Bug-base, and test a new test case application
  * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
+-->
 
 ### BSA Camp Oljato, Lakeshore CA
 
