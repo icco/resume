@@ -1,6 +1,10 @@
 # The Rakefile does all of the real work.
 
-task :default => [:github, :heroku]
+require 'rubygems'
+require 'bundler'
+Bundler.require(:default)
+
+task :default => [:github]
 
 desc "Run your resume locally."
 task :local do
@@ -46,17 +50,6 @@ end
 desc "Deploy to remote defined in config.yaml"
 task :github do
   require File.expand_path('../resume',__FILE__)
-  require 'rubygems'
-
-  # Nice Error checking for gems.
-  [ 'git', 'rack/test', 'logger' ].each {|gem|
-    begin
-      require gem
-    rescue LoadError
-      puts "The gem #{gem} is not installed.\n"
-      exit
-    end
-  }
 
   remote = YAML.load_file('config.yaml')['github']['remote']
 
@@ -67,7 +60,8 @@ task :github do
     'resume.txt',
   ]
 
-  files = files + Dir.entries("public").keep_if {|file| File.file? "public/#{file}"}
+  files += Dir.entries("public").keep_if {|file| File.file? "public/#{file}"}
+  files += Dir.entries("public/css").keep_if {|file| File.file? "public/#{file}"}
 
   root = "/tmp/checkout-#{Time.now.to_i}"
   g = Git.clone(remote, root, :log => Logger.new(STDOUT))

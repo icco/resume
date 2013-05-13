@@ -4,6 +4,7 @@ GEM
     daemons (1.1.9)
     eventmachine (1.0.3)
     git (1.2.5)
+    logger (1.2.8)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -28,6 +29,7 @@ PLATFORMS
 
 DEPENDENCIES
   git
+  logger
   rack-test
   redcarpet
   sass
