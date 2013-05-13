@@ -5,12 +5,14 @@
 
 # Include our configurations from config.yaml
 configure do
+  require 'yaml'
   set :config, YAML.load_file('config.yaml')['user_config']
 
   require 'sass/plugin/rack'
   Sass::Plugin.options[:template_location] = "views/css"
   Sass::Plugin.options[:css_location] = "public/css"
   Sass::Plugin.options[:style] = :compact
+  Sass::Plugin.options[:always_update] = true
   use Sass::Plugin::Rack
 end
 
