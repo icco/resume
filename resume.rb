@@ -6,6 +6,11 @@
 # Include our configurations from config.yaml
 configure do
   set :config, YAML.load_file('config.yaml')['user_config']
+
+  require 'sass/plugin/rack'
+  Sass::Plugin.options[:template_location] = "views/css"
+  Sass::Plugin.options[:css_location] = "public/css"
+  use Sass::Plugin::Rack
 end
 
 # Render the main page.
@@ -29,11 +34,6 @@ end
 # We do this for our static site rendering.
 get '/' do
   redirect '/index.html'
-end
-
-get '/css/:name.css' do
-  filename = params[:name]
-  scss filename.to_sym, :views => "#{settings.root}/views/css"
 end
 
 # For the plain text version of our resumes
