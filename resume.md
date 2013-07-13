@@ -22,6 +22,10 @@ I have been writing code, running servers and experimenting with new software si
 
 ## Experience
 
+### Open Source Developer
+
+I currently am a contributor to the open source project [fog](http://fog.io).
+
 ### Google.com, San Francisco, CA
 
 #### Site Reliability Engineer - April 2012 to Present
