@@ -43,7 +43,7 @@ As a Software Engineer at Google, I worked on Punchd, Google Offers and Google L
 
 #### Software Developer - January 2011 to July 2011
 
-I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure in Java, but it was never released.
+I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure, but it was never released.
 
 ### iFixit.com, San Luis Obispo CA
 
