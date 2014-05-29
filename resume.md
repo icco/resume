@@ -2,13 +2,12 @@
 
  * <nat@natwelch.com>
  * <http://natwelch.com>
- * 707-799-8675
 
 ## Background
 
 I am a software developer with an interest in communication and design. I enjoy experimenting with new things to expand my knowledge and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind. 
 
-I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and have been active in many Linux Users Groups. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
 
 ## Education
 
