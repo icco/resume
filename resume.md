@@ -7,7 +7,9 @@
 
 I am a software developer with an interest in communication and design. I enjoy experimenting with new things to expand my knowledge and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind. 
 
-I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and have been active in many Linux Users Groups. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+I am an Eagle Scout and in my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+
+My goal is to obtain a software development job at a small company.
 
 ## Education
 
@@ -23,15 +25,15 @@ I have been writing code, running servers and experimenting with new software si
 
 ### Open Source Developer
 
-I currently am a contributor to the open source project [fog](http://fog.io).
+I currently am a contributor to the open source project [fog](http://fog.io) and also a bunch of [other small projects](https://icco.github.io/).
 
 ### Google.com
 
 #### Site Reliability Engineer - April 2012 to Present
 
-I currently work as an SRE for Google Compute Engine in London.
+I currently work as an SRE for Google Compute Engine in London. My job includes being part of an oncall rotation and writing software to maintain, monitor and optimize hundreds of thousands of servers globally. I also spend a decent amount of time analyzing processes used by the teams I work closely with to try and automate people out of a job, myself included. If you are unfamiliar with SRE, check out [wikipedia](https://en.wikipedia.org/wiki/Reliability_engineering) and [Google's blog](http://googleforstudents.blogspot.com/2012/06/site-reliability-engineers-worlds-most.html).
 
-In the past I worked in San Francsico, CA on Google Cloud Storage and Google Compute Engine.
+In the past I worked in San Francsico, CA on Google Cloud Storage and Google Compute Engine, doing similar things to what I do now.
 
 #### Software Engineer - August 2011 to September 2012
 
