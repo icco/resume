@@ -19,7 +19,7 @@ California Polytechnic State University, San Luis Obispo
 
 ## Proficiency
 
-I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Python, Javascript and Bash, but I have experience in Go, C, SML/NJ, SQL and F#.
+I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Python and Bash, but I have experience in PHP, Javascript, Go, C, SML/NJ, SQL and F#.
 
 ## Experience
 
