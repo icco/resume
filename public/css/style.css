@@ -1,7 +1,7 @@
 /** Less based style sheet. @author Nat Welch */
 * { margin: 0; padding: 0; }
 
-body { color: #333333; line-height: 1.4em; background-color: #f9f9f9; font-family: serif; font-size: 0.9em; }
+body { color: #333333; line-height: 1.4em; background-color: #F9F9F9; font-family: serif; font-size: 0.9em; }
 
 /** Fix float problem. http://www.positioniseverything.net/easyclearing.html */
 .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
@@ -10,18 +10,20 @@ body { color: #333333; line-height: 1.4em; background-color: #f9f9f9; font-famil
 
 #resume { width: 800px; margin-left: auto; margin-right: auto; margin-bottom: 30px; padding: 10px; }
 #resume h1, #resume h2, #resume h3, #resume h4, #resume h5, #resume h6 { border: 0; }
-#resume h1 { font-size: 170%; border-top: 4px solid #e0e0e0; padding-top: 0.5em; margin-top: 1.5em; }
+#resume h1 { font-size: 170%; border-top: 4px solid #E0E0E0; padding-top: 0.5em; margin-top: 1.5em; }
 #resume h1:first-child { margin-top: 30px; padding-top: 0.25em; border-top: none; font-size: 200%; }
-#resume h2 { font-size: 150%; margin-top: 1.5em; border-top: 4px solid #e0e0e0; padding-top: 0.5em; }
+#resume h2 { font-size: 150%; margin-top: 1.5em; border-top: 4px solid #E0E0E0; padding-top: 0.5em; }
 #resume h3 { margin-top: 1em; }
 #resume p { margin: 1em 0; line-height: auto; }
 #resume ul, #resume ol { margin: 1em 0 1em 2em; }
 #resume ul li, #resume ol li { margin-top: 0.3em; margin-bottom: 0.3em; }
 #resume ul ul, #resume ul ol, #resume ol ul, #resume ol ol { margin-top: 0; margin-bottom: 0; }
-#resume blockquote { border-left: 5px solid #e0e0e0; margin: 1em 0; padding-left: 0.6em; }
-#resume a, #resume a:visited { color: #4183c4; text-decoration: none; }
+#resume blockquote { border-left: 5px solid #E0E0E0; margin: 1em 0; padding-left: 0.6em; }
+#resume a, #resume a:visited { color: #4183C4; text-decoration: none; }
 #resume a:hover { text-decoration: underline; }
 #resume img { max-width: 100%; }
-#resume blockquote { margin: 1em 0; border-left: 5px solid #e0e0e0; padding-left: 0.6em; color: #333333; }
+#resume blockquote { margin: 1em 0; border-left: 5px solid #E0E0E0; padding-left: 0.6em; color: #333333; }
 #resume dt { font-weight: bold; margin-left: 1em; }
 #resume dd { margin-left: 2em; margin-bottom: 1em; }
+
+/*# sourceMappingURL=style.css.map */
