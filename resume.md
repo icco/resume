@@ -9,7 +9,7 @@ I am a software developer with an interest in communication and design. I enjoy 
 
 I am an Eagle Scout and in my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
 
-My goal is to obtain a software development job at a small company.
+My goal is to obtain a software development job at a small company, focusing on launching and building software for the web.
 
 ## Education
 
