@@ -39,7 +39,7 @@ I attended [Recurse Center](http://recurse.com) in NYC for three months in NYC.
 
 I worked as an SRE for [Google Compute Engine](https://cloud.google.com/compute/) in London and San Francisco. My job included being part of an oncall rotation and writing software to maintain, monitor and optimize hundreds of thousands of servers globally. I also spent a decent amount of time analyzing processes used by the teams I worked closely with to try and automate people out of a job, myself included. If you are unfamiliar with SRE, check out [Wikipedia](https://en.wikipedia.org/wiki/Reliability_engineering) and [Google's blog](http://googleforstudents.blogspot.com/2012/06/site-reliability-engineers-worlds-most.html).
 
-While on SRE I also spent some time working [Google Cloud Storage](https://cloud.google.com/storage/) and designed and built [Google Cloud Status](https://status.cloud.google.com/).
+While on SRE I also worked on [Google Cloud Storage](https://cloud.google.com/storage/) and designed and built [Google Cloud Status](https://status.cloud.google.com/).
 
 #### Software Engineer - August 2011 to September 2012
 
