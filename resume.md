@@ -27,6 +27,12 @@ I have been writing code, running servers and experimenting with new software si
 
 I currently am a contributor to the open source project [fog](http://fog.io) and also a bunch of [other small projects](https://icco.github.io/).
 
+### Recurse Center
+
+#### Attendee - March 2015 - July 2015
+
+I attended [Recurse Center](http://recurse.com) in NYC for three months in NYC.
+
 ### Google.com
 
 #### Site Reliability Engineer - April 2012 to March 2015
