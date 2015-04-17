@@ -29,11 +29,11 @@ I currently am a contributor to the open source project [fog](http://fog.io) and
 
 ### Google.com
 
-#### Site Reliability Engineer - April 2012 to Present
+#### Site Reliability Engineer - April 2012 to March 2015
 
-I currently work as an SRE for Google Compute Engine in London. My job includes being part of an oncall rotation and writing software to maintain, monitor and optimize hundreds of thousands of servers globally. I also spend a decent amount of time analyzing processes used by the teams I work closely with to try and automate people out of a job, myself included. If you are unfamiliar with SRE, check out [Wikipedia](https://en.wikipedia.org/wiki/Reliability_engineering) and [Google's blog](http://googleforstudents.blogspot.com/2012/06/site-reliability-engineers-worlds-most.html).
+I worked as an SRE for [Google Compute Engine](https://cloud.google.com/compute/) in London and San Francisco. My job included being part of an oncall rotation and writing software to maintain, monitor and optimize hundreds of thousands of servers globally. I also spent a decent amount of time analyzing processes used by the teams I worked closely with to try and automate people out of a job, myself included. If you are unfamiliar with SRE, check out [Wikipedia](https://en.wikipedia.org/wiki/Reliability_engineering) and [Google's blog](http://googleforstudents.blogspot.com/2012/06/site-reliability-engineers-worlds-most.html).
 
-In the past I worked in San Francisco, CA on Google Cloud Storage and Google Compute Engine, doing similar things to what I do now.
+While on SRE I also spent some time working [Google Cloud Storage](https://cloud.google.com/storage/) and designed and built [Google Cloud Status](https://status.cloud.google.com/).
 
 #### Software Engineer - August 2011 to September 2012
 
