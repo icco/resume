@@ -5,11 +5,9 @@
 
 ## Background
 
-I am a software developer with an interest in communication and design. I enjoy experimenting with new things to expand my knowledge and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind. 
+I am a software developer with an interest in communication and design. I enjoy experimenting with new things and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind.
 
 I am an Eagle Scout and in my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
-
-My goal is to obtain a software development job at a small company, focusing on launching and building software for the web.
 
 ## Education
 
@@ -19,7 +17,7 @@ California Polytechnic State University, San Luis Obispo
 
 ## Proficiency
 
-I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Python and Bash, but I have experience in PHP, Javascript, Go, C, SML/NJ, SQL and F#.
+I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Javascript, Ruby, Python and Go, but I have experience in PHP, Java, Bash, C, SML/NJ, SQL and F#.
 
 ## Experience
 
@@ -55,7 +53,7 @@ I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we 
 
 #### Software Developer - April 2009 to April 2011
 
-I wore a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I wrote code mainly in PHP and Bash, and helped maintain our fleet of servers on Amazon's EC2 Service. 
+I wore a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I wrote code mainly in PHP and Bash, and helped maintain our fleet of servers on Amazon's EC2 Service.
 
  * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
  * Helped maintain various servers, located on Amazon EC2, and local development machines
