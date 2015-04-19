@@ -5,9 +5,9 @@
 
 ## Background
 
-I am a software developer with an interest in communication and design. I enjoy experimenting with new things and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind.
+I am a Software Reconnaissance Engineer. Think of me as a full-stack developer with an interest in improving the ways people communicate using technology. I enjoy experimenting with new things to help find interesting intersections in technology to help design beautiful and powerful ways for people to share knowledge, advice and experiences.
 
-I am an Eagle Scout and in my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+I am an Eagle Scout. In my free time I enjoy contributing to open source projects, reading, listening to music and wandering through cities and countrysides.
 
 ## Education
 
