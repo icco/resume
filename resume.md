@@ -75,6 +75,4 @@ I wore a variety of hats including -- but not limited to -- writing code to prom
 #### Nature Director - Summer 2006
 #### Camp Counselor - Summer 2002, 2003 and 2004
 
- * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer.
- * Taught merit badge classes such as wilderness survival, camping, hiking, and others to children ages ten to eighteen.
-
+I was in charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer. I also taught a variety of merit badge classes to children ages ten to eighteen.
