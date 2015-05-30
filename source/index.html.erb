@@ -7,33 +7,39 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <title>Nat Welch's Resume</title>
 
+    <!-- For dat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <%= stylesheet_link_tag "tachyons.min", "all" %>
     <%= javascript_include_tag  "all" %>
   </head>
 
-  <body class="<%= page_classes %>">
-    <h1>Nathaniel Welch</h1>
+  <body class="<%= page_classes %> black">
+    <header class="pal">
+    <%= image_tag 'logo.png', :width => "80", :class => 'fl mrl' %></p>
+        <h1 class="f2 ttu">Nat Welch</h1>
+        <h2 class="f4 ttu ">Software Reconnaissance Engineer</h2>
+    </header>
 
-    <ul>
-      <li><a href="mailto:nat@natwelch.com">nat@natwelch.com</a></li>
-      <li><a href="http://natwelch.com">http://natwelch.com</a></li>
-    </ul>
 
-    <h2>Background</h2>
+    <main class="pal">
+    <small><a href="mailto:nat@natwelch.com" class="link">nat@natwelch.com</a></small>
 
-    <p>I am a Software Reconnaissance Engineer. Think of me as a full-stack developer with an interest in improving the ways people communicate using technology. I enjoy experimenting with new things to help find interesting intersections in technology to help design beautiful and powerful ways for people to share knowledge, advice and experiences.</p>
+    <p>A Software Reconnaissance Engineer is someone who is constantly exploring and learning about software and how it interacts with the world. My specific interest is in improving the ways people communicate using technology. In more words, I like to say that I am a full-stack web developer that enjoys experimenting with new things to help find interesting intersections in technology to help design beautiful and powerful ways for people to share knowledge, advice and experiences.</p>
 
-    <p>I am an Eagle Scout. In my free time I enjoy contributing to open source projects, reading, listening to music and wandering through cities and countrysides.</p>
+    <p>Outside of the tech-world I am an Eagle Scout. I enjoy contributing to open source projects, reading, listening to music and wandering through cities and countrysides.</p>
 
     <h2>Education</h2>
 
-    <p>Computer Science, B.S.
-    Fall 2006 - Spring 2011
-    California Polytechnic State University, San Luis Obispo</p>
+    <p><strong>Computer Science, B.S.</strong> California Polytechnic State University, San Luis Obispo. Fall 2006 - Spring 2011</p>
 
-    <h2>Proficiency</h2>
+    <p><strong>Recurser</strong> Recurse Center, New York. Spring 2015</p>
 
-    <p>I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Javascript, Ruby, Python and Go, but I have experience in PHP, Java, Bash, C, SML/NJ, SQL and F#.</p>
+    <h2>Proficiencies</h2>
+
+    <p><strong>Code</strong>: Javascript, Ruby, Python, Go, SQL, PHP, Java, Bash, C, SML/NJ, and F#</p>
+
+    <p><strong>Software</strong>: GCP, AWS, Photoshop, Vim, Linux, Docker, Postgres, MySQL and lots of cloud related things</p>
 
     <h2>Experience</h2>
 
@@ -101,5 +107,6 @@
     <h4>Intern - June 2005 – September 2005</h4>
 
     <p>I worked building websites, maintaining computer labs, and building a small ASP application that was used to view server availability for the entire county.</p>
+    </main>
   </body>
 </html>
