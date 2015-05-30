@@ -10,20 +10,37 @@
     <!-- For dat mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%= stylesheet_link_tag "tachyons.min", "all" %>
+    <%= stylesheet_link_tag "tachyons.min" %>
     <%= javascript_include_tag  "all" %>
+
+    <style>
+      /* Based on http://mrmrs.io/links/ */
+      a, a:link, a:visited {
+        transition: color .4s;
+        color: #265C83;
+      }
+
+      a:hover {
+        color: #7FDBFF;
+      }
+
+      a:active {
+        transition: color .3s;
+        color: #007BE6;
+      }
+    </style>
   </head>
 
   <body class="<%= page_classes %> black">
     <header class="pal">
-    <%= image_tag 'logo.png', :width => "80", :class => 'fl mrl' %></p>
-        <h1 class="f2 ttu">Nat Welch</h1>
-        <h2 class="f4 ttu ">Software Reconnaissance Engineer</h2>
+      <%= image_tag 'logo.png', :width => "80", :class => 'fl mrl' %></p>
+      <h1 class="f2 ttu">Nat Welch</h1>
+      <h2 class="f4 ttu ">Software Reconnaissance Engineer</h2>
     </header>
 
 
     <main class="pal">
-    <small><a href="mailto:nat@natwelch.com" class="link">nat@natwelch.com</a></small>
+    <small><a href="mailto:nat@natwelch.com">nat@natwelch.com</a></small>
 
     <p>A Software Reconnaissance Engineer is someone who is constantly exploring and learning about software and how it interacts with the world. My specific interest is in improving the ways people communicate using technology. In more words, I like to say that I am a full-stack web developer that enjoys experimenting with new things to help find interesting intersections in technology to help design beautiful and powerful ways for people to share knowledge, advice and experiences.</p>
 
