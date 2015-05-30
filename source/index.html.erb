@@ -10,8 +10,7 @@
     <!-- For dat mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%= stylesheet_link_tag "tachyons.min" %>
-    <%= javascript_include_tag  "all" %>
+    <%= stylesheet_link_tag "tachyons.min", :media => "screen" %>
 
     <style>
       /* Based on http://mrmrs.io/links/ */
@@ -35,23 +34,21 @@
     <header class="pal">
       <%= image_tag 'logo.png', :width => "80", :class => 'fl mrl' %></p>
       <h1 class="f2 ttu">Nat Welch</h1>
-      <h2 class="f4 ttu ">Software Reconnaissance Engineer</h2>
+      <h2 class="f4 ttu book">Software Reconnaissance Engineer</h2>
+      <p class="mvn mhm f5"><a href="mailto:nat@natwelch.com">nat@natwelch.com</a> <a href="tel:+17077998675">+1 707 799 8675</a></p>
     </header>
 
-    <main class="pal">
-      <p class="mvn mhm"><small><a href="mailto:nat@natwelch.com">nat@natwelch.com</a></small></p>
-      <p class="mvn mhm"><small><a href="tel:+17077998675">+1 707 799 8675</a></small></p>
-
+    <main class="phl ptn pbl">
       <p class="mbn">A Software Reconnaissance Engineer is someone who is constantly exploring and learning about software and how it interacts with the world. My specific interest is in improving the ways people communicate using technology. In more words, I like to say that I am a full-stack web developer that enjoys experimenting with new things to help find interesting intersections in technology to help design beautiful and powerful ways for people to share knowledge, advice and experiences.</p>
 
       <p>Outside of the tech-world I am an Eagle Scout. I enjoy contributing to open source projects, reading, listening to music and wandering through cities and countrysides.</p>
 
-      <h2>Education</h2>
+      <h2 class="ttu book silver">Education</h2>
 
-      <p><strong>Computer Science, B.S.</strong> California Polytechnic State University, San Luis Obispo. Fall 2006 - Spring 2011</p>
-      <p><strong>Recurser</strong> Recurse Center, New York. Spring 2015</p>
+      <p class="mvn plm"><strong>Computer Science, B.S.</strong> California Polytechnic State University, San Luis Obispo. Fall 2006 - Spring 2011</p>
+      <p class="mvn plm"><strong>Recurser</strong> Recurse Center, New York. Spring 2015</p>
 
-      <h2>Experience</h2>
+      <h2 class="ttu book silver">Experience</h2>
 
       <h3 class="mbn mtm">Open Source Developer</h3>
 
@@ -104,7 +101,7 @@
       <p class="mvn plm"><strong>Nature Director</strong> Summer 2006.</p>
       <p class="mvn plm"><strong>Camp Counselor</strong> Summer 2002, 2003 and 2004.</p>
 
-      <h2>Proficiencies</h2>
+      <h2 class="ttu book silver">Proficiencies</h2>
 
       <p class="mvn plm"><strong>Code</strong>: Javascript, Ruby, Python, Go, SQL, PHP, Java, Bash, C, SML/NJ, and F#</p>
       <p class="mvn plm"><strong>Software</strong>: GCP, AWS, Photoshop, Vim, Linux, Docker, Postgres, MySQL and lots of cloud related things</p>
