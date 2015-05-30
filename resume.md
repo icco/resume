@@ -11,9 +11,9 @@ I am an Eagle Scout. In my free time I enjoy contributing to open source project
 
 ## Education
 
-Computer Science, B.S.  
-Fall 2006 - Spring 2011  
-California Polytechnic State University, San Luis Obispo  
+Computer Science, B.S.
+Fall 2006 - Spring 2011
+California Polytechnic State University, San Luis Obispo
 
 ## Proficiency
 
@@ -60,7 +60,6 @@ I wore a variety of hats including -- but not limited to -- writing code to prom
  * Developed the first JavaScript widget for iFixit's API.
  * Redefined iFixit's developer workflow
 
-<!--
 ### Adobe Systems Incorporated, San Francisco CA
 
 #### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
@@ -68,7 +67,6 @@ I wore a variety of hats including -- but not limited to -- writing code to prom
  * Tested both daily builds and released versions of Dreamweaver against various operating systems - including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
  * Helped maintain the Server Matrix, Bug-base, and test a new test case application
  * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
--->
 
 ### BSA Camp Oljato, Lakeshore CA
 
@@ -76,3 +74,9 @@ I wore a variety of hats including -- but not limited to -- writing code to prom
 #### Camp Counselor - Summer 2002, 2003 and 2004
 
 I was in charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer. I also taught a variety of merit badge classes to children ages ten to eighteen.
+
+### County of Sonoma ISD, Santa Rosa CA
+
+#### Intern - June 2005 – September 2005
+
+I worked building websites, maintaining computer labs, and building a small ASP application that was used to view server availability for the entire county.
