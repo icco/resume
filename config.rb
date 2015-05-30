@@ -10,6 +10,7 @@ end
 ###
 # Page options, layouts, aliases and proxies
 ###
+page "/index.html", :layout => false
 
 ###
 # Helpers
