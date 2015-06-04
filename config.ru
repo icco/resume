@@ -1,7 +1,4 @@
-require 'rubygems' unless defined?(Gem)
-require 'bundler/setup'
-Bundler.require(:default)
-
-## Just run the application
-require './resume'
-run Sinatra::Application
+#! /usr/bin/env rackup
+require 'rubygems'
+require 'middleman/rack'
+run Middleman.server
