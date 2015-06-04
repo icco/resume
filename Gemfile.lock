@@ -32,7 +32,9 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.7)
     execjs (2.5.2)
+    exifr (1.2.2)
     ffi (1.9.8)
+    fspath (2.1.1)
     haml (4.0.6)
       tilt
     hike (1.2.3)
@@ -41,6 +43,17 @@ GEM
       uber (~> 0.0.4)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
+    image_optim (0.20.2)
+      exifr (~> 1.1, >= 1.1.3)
+      fspath (~> 2.1)
+      image_size (~> 1.3)
+      in_threads (~> 1.3)
+      progress (~> 3.0, >= 3.0.1)
+    image_optim_pack (0.2.1.20150525)
+      fspath (~> 2.1)
+      image_optim (~> 0.19)
+    image_size (1.4.1)
+    in_threads (1.3.1)
     json (1.8.3)
     kramdown (1.7.0)
     listen (2.10.0)
@@ -74,6 +87,10 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-imageoptim (0.2.1)
+      image_optim (~> 0.20.2)
+      image_optim_pack (~> 0.2.1)
+      middleman-core (>= 3.1)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -89,12 +106,14 @@ GEM
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
+    oj (2.12.9)
     padrino-helpers (0.12.5)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.12.5)
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
+    progress (3.1.0)
     ptools (1.3.2)
     rack (1.6.1)
     rack-livereload (0.3.15)
@@ -133,7 +152,9 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.3.12)
   middleman-deploy (~> 1.0)
+  middleman-imageoptim
   middleman-livereload (~> 3.1.0)
+  oj
   tzinfo-data
   wdm (~> 0.1.0)
 

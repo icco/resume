@@ -17,7 +17,7 @@ page "/index.html", :layout => false
 ###
 
 # Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
+# activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -36,13 +36,19 @@ configure :build do
   activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   activate :asset_hash
 
   # Use relative URLs
   activate :relative_assets
+
+  # https://github.com/plasticine/middleman-imageoptim
+  activate :imageoptim do |options|
+    options.pngout = false
+    options.svgo = false
+  end
 end
 
 activate :deploy do |deploy|
