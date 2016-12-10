@@ -6,3 +6,4 @@ local:
 deploy:
 	git push
 	bundle exec middleman deploy
+	git co master
