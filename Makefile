@@ -5,4 +5,4 @@ local:
 
 deploy:
 	git push
-	middleman deploy
+	bundle exec middleman deploy
