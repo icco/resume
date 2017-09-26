@@ -1,14 +1,12 @@
 source "https://rubygems.org"
 
-ruby "2.4.0"
+ruby "2.4.2"
 
 gem "middleman", "~> 3.3.12"
 
-# For deploying to gh-pages
-gem "middleman-deploy", "~> 1.0"
-
 # For shrinking things
 gem "middleman-imageoptim"
+gem "therubyracer"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
