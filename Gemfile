@@ -6,7 +6,8 @@ gem "middleman", "~> 4"
 gem "therubyracer"
 
 # For shrinking things
-gem "middleman-imageoptim"
+gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-imageoptim", :branch => "master"
+
 
 # Live-reloading plugin
 gem "middleman-livereload"
