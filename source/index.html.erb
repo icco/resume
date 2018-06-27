@@ -10,7 +10,8 @@
     <!-- For dat mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%= stylesheet_link_tag "tachyons", "print" %>
+    <link href="/css/tachyons.css" rel="stylesheet">
+    <link href="/css/print.css" rel="stylesheet" media="print">
 
     <style>
       /* Based on http://mrmrs.io/links/ */
@@ -31,7 +32,7 @@
   </head>
 
   <body class="<%= page_classes %> black mw7 mw-100-print avenir lh-copy">
-    <header class="pa3 oh pos-rel">
+    <header class="ph3 oh pos-rel pt3 pb3-ns">
     <div class="dt w-100">
       <div class="dtc w-50 v-mid">
         <%= image_tag "dots.png", :class => "v-mid mh0 di-ns dn ph0 w4-ns w3" %>
@@ -44,7 +45,7 @@
     </header>
 
     <main class="ph4 pt0 pb4">
-      <p class="ma0 f6 lh-copy"><a href="mailto:nat@natwelch.com">nat@natwelch.com</a> <br class="dn-ns" /> <a href="tel:+17077998675">+1 707 799 8675</a></p>
+      <p class="ma0 f6 f-print lh-copy"><a href="mailto:nat@natwelch.com">nat@natwelch.com</a> <a href="tel:+17077998675">+1 707 799 8675</a></p>
 
       <p class="lh-copy mb0">I am a senior software developer based in Brooklyn. I have been writing software for the web professionally since 2005. I have two passions in software. The first is building beautiful tools for people to share knowledge, advice and experience. The second is creating reliable infrastructure that is easy to use and maintain.</p>
 
@@ -75,7 +76,7 @@
         <li>Managed a team of three full time software engineers. Helped define code review and code style policies for the development team.</li>
       </ul>
 
-      <h3 class="mb0 mt3">Google.com</h3>
+      <h3 class="mb0 mt3">Google</h3>
       <p class="mv0 lh-copy"><strong>Site Reliability Engineer</strong> April 2012 to March 2015.</p>
       <ul class="pl3 ml2 mv2 lh-copy">
         <li>SRE for <a href="https://cloud.google.com/compute/">Google Compute Engine</a> in London and San Francisco. My job included being part of an oncall rotation and writing software to maintain, monitor and optimize hundreds of thousands of servers globally. I also spent a decent amount of time analyzing processes used by the teams I worked closely with to try and automate people out of a job, myself included.</li>
