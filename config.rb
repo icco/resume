@@ -1,30 +1,7 @@
 ###
-# Compass
-###
-
-# Change Compass configuration
-compass_config do |config|
-  config.output_style = :compact
-end
-
-###
 # Page options, layouts, aliases and proxies
 ###
 page "/index.html", :layout => false
-
-###
-# Helpers
-###
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
 
 set :css_dir, 'css'
 set :js_dir, 'js'
