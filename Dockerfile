@@ -1,4 +1,4 @@
-FROM ruby:2.4.2
+FROM ruby:2.5.0
 WORKDIR /opt
 ENV LANG C.UTF-8
 COPY . .

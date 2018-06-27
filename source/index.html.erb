@@ -10,7 +10,8 @@
     <!-- For dat mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%= stylesheet_link_tag "tachyons", "print" %>
+    <link href="/css/tachyons.css" rel="stylesheet">
+    <link href="/css/print.css" rel="stylesheet" media="print">
 
     <style>
       /* Based on http://mrmrs.io/links/ */
@@ -30,93 +31,89 @@
     </style>
   </head>
 
-  <body class="<%= page_classes %> black mw7 mw-100-print sans-serif lh-copy">
-    <header class="pam oh pos-rel">
-    <div class="dt wi-100">
-      <div class="dtc wi-50 v-mid">
-        <%= image_tag "dots.png", :class => "v-mid mhn di-ns dn phn w4-ns w3" %>
-        <div class="dib v-mid pas pan-ns">
-          <h1 class="normal measure lh-copy man">Nat Welch</h1>
-          <h2 class="normal ttu f4 man">Software Reconnaissance Engineer</h2>
+  <body class="<%= page_classes %> black mw7 mw-100-print avenir lh-copy">
+    <header class="ph3 oh pos-rel pt3 pb3-ns">
+    <div class="dt w-100">
+      <div class="dtc w-50 v-mid">
+        <%= image_tag "dots.png", :class => "v-mid mh0 di-ns dn ph0 w4-ns w3" %>
+        <div class="dib v-mid pa3 pa0-ns">
+          <h1 class="normal measure lh-copy ma0">Nat Welch</h1>
+          <h2 class="normal ttu f5 ma0">Software Reconnaissance Engineer</h2>
         </div>
       </div>
     </div>
     </header>
 
-    <main class="phl ptn pbl">
-      <p class="mvn mhn f5 lh-copy"><a href="mailto:nat@natwelch.com">nat@natwelch.com</a> <br class="dn-ns" /> <a href="tel:+17077998675">+1 707 799 8675</a></p>
+    <main class="ph4 pt0 pb4">
+      <p class="ma0 f6 f-print lh-copy"><a href="mailto:nat@natwelch.com">nat@natwelch.com</a> <a href="tel:+17077998675">+1 707 799 8675</a></p>
 
-      <p class="lh-copy mbn">I am a senior software developer based in Brooklyn. I have been writing software for the web professionally since 2005. I have two passions in software. The first is building beautiful tools for people to share knowledge, advice and experience. The second is creating reliable infrastructure that is easy to use and maintain.</p>
+      <p class="lh-copy mb0">I am a senior software developer based in Brooklyn. I have been writing software for the web professionally since 2005. I have two passions in software. The first is building beautiful tools for people to share knowledge, advice and experience. The second is creating reliable infrastructure that is easy to use and maintain.</p>
 
       <p class="lh-copy">Outside of the tech-world I am an Eagle Scout. I enjoy contributing to open source projects, writing, reading, listening to music and wandering through cities and countrysides.</p>
 
-      <h2 class="lh-title ttu book silver">Experience</h2>
+      <h2 class="lh-title ttu fw3 silver">Experience</h2>
 
-      <h3 class="lh-title mbn mtm">Open Source Developer</h3>
-      <p class="lh-copy">I currently am a contributor to the open source project <a href="http://fog.io">fog</a> and also a bunch of <a href="https://github.com/icco">other small projects</a>.</p>
+      <h3 class="lh-title mb0 mt3">Author &amp; Speaker</h3>
+      <ul class="pl3 ml2 mv2 lh-copy">
+        <li>Author of <a href="https://www.packtpub.com/web-development/real-world-sre">Real World SRE</a> from Packt Publishing. 2018.</li>
+        <li>Published in <a href="https://codewords.recurse.com/issues/three">Issue Three</a> and <a href="https://codewords.recurse.com/issues/six">Issue Six</a> of Code Words. 2015 &amp; 2016</li>
+        <li>Spoke at Strange Loop 2017, LinuxConf 2014, SRECon 2017 and others.</li>
+      </ul>
 
-      <h3 class="mbn mtm">First Look Media</h3>
-      <p class="mvn lh-copy"><strong>Lead Site Reliability Engineer</strong> March 2017 to Present. Migrated three services from Colos to AWS. Maintained Terraform config and AWS for company. Improved deploy reliability, wrote new features for most services and refactored entire ECS infrastructure. Mentored engineers around infrastructure, reliability and architecture design. Automated capacity planning, started a postmortem culture, and improved performance and reliability of our CMS platform.</p>
+      <h3 class="lh-title mb0 mt3">Open Source Developer</h3>
+      <p class="mv2 lh-copy">I currently am a contributor to the open source project <a href="http://fog.io">fog</a> and also a bunch of <a href="https://github.com/icco">other small projects</a>.</p>
 
-      <h3 class="mbn mtm">Hillary for America</h3>
-      <p class="mvn lh-copy"><strong>Staff Site Reliability Engineer</strong> January 2016 through December 2016. Promoted reliability in both our web serving infrastructure and data analytics pipelines. Survived constant attacks with only 15 minutes of downtime the entire campaign.</p>
+      <h3 class="mb0 mt3">First Look Media</h3>
+      <p class="mv0 lh-copy"><strong>Lead Site Reliability Engineer</strong> March 2017 to Present. Migrated three services from Colos to AWS. Maintained Terraform config and AWS for company. Improved deploy reliability, wrote new features for most services and refactored entire ECS infrastructure. Mentored engineers around infrastructure, reliability and architecture design. Automated capacity planning, started a postmortem culture, and improved performance and reliability of our CMS platform.</p>
 
-      <h3 class="mbn mtm">littleBits Electronics</h3>
-      <p class="mvn lh-copy"><strong>Technical Lead</strong> August 2015 to January 2016.</p>
-      <ul class="mvs lh-copy">
+      <h3 class="mb0 mt3">Hillary for America</h3>
+      <p class="mv0 lh-copy"><strong>Staff Site Reliability Engineer</strong> January 2016 through December 2016. Promoted reliability in both our web serving infrastructure and data analytics pipelines. Survived constant attacks with only 15 minutes of downtime the entire campaign.</p>
+
+      <h3 class="mb0 mt3">littleBits Electronics</h3>
+      <p class="mv0 lh-copy"><strong>Technical Lead</strong> August 2015 to January 2016.</p>
+      <ul class="pl3 ml2 mv2 lh-copy">
         <li>Led optimization efforts for holiday traffic. Cut average site load time in half and shrunk average API response time by two magnitudes.</li>
         <li>Managed a team of three full time software engineers. Helped define code review and code style policies for the development team.</li>
       </ul>
 
-      <h3 class="mbn mtm">Google.com</h3>
-      <p class="mvn lh-copy"><strong>Site Reliability Engineer</strong> April 2012 to March 2015.</p>
-      <ul class="mvs lh-copy">
+      <h3 class="mb0 mt3">Google</h3>
+      <p class="mv0 lh-copy"><strong>Site Reliability Engineer</strong> April 2012 to March 2015.</p>
+      <ul class="pl3 ml2 mv2 lh-copy">
         <li>SRE for <a href="https://cloud.google.com/compute/">Google Compute Engine</a> in London and San Francisco. My job included being part of an oncall rotation and writing software to maintain, monitor and optimize hundreds of thousands of servers globally. I also spent a decent amount of time analyzing processes used by the teams I worked closely with to try and automate people out of a job, myself included.</li>
 
         <li>While on SRE I also worked on <a href="https://cloud.google.com/storage/">Google Cloud Storage</a> and designed and built <a href="https://status.cloud.google.com/">Google Cloud Status</a>.</li>
       </ul>
 
-      <p class="mvn lh-copy"><strong>Software Engineer</strong> August 2011 to April 2012. I worked on Punchd, Google Offers and Google Local in Mountain View, CA.</p>
+      <p class="mv0 lh-copy"><strong>Software Engineer</strong> August 2011 to April 2012. I worked on Punchd, Google Offers and Google Local in Mountain View, CA.</p>
 
-      <h3 class="lh-title mbn mtm">Punchd, Mountain View, CA</h3>
-      <p class="mvn lh-copy"><strong>Software Developer</strong> January 2011 to September 2012.</p>
-      <ul class="mvs lh-copy">
-        <li>Rearchitected the site from PHP on Dreamhost to Ruby on Rails on Amazon EC2.</li>
-        <li>Instituted production monitoring and alerting.</li>
-      </ul>
+      <h3 class="lh-title mb0 mt3">Punchd, Mountain View, CA</h3>
+      <p class="mv0 lh-copy"><strong>Software Developer</strong> January 2011 to September 2012. Maintained backend app. Migrated to AWS.</p>
 
-      <h3 class="lh-title mbn mtm">iFixit.com, San Luis Obispo, CA</h3>
-      <p class="mvn lh-copy"><strong>Software Developer</strong> April 2009 to April 2011.</p>
-      <ul class="mvs lh-copy">
-        <li>Created a site-wide reputation community, which began with <a href="http://ifixit.com/Answers">iFixit.com/Answers</a>.</li>
-        <li>Developed the first JavaScript widget for iFixit&#8217;s API.</li>
-      </ul>
+      <h3 class="lh-title mb0 mt3">iFixit.com, San Luis Obispo, CA</h3>
+      <p class="mv0 lh-copy"><strong>Software Developer</strong> April 2009 to April 2011. Built Answers, improved wiki and image processors. </p>
 
-      <h3 class="lh-title mbn mtm">Adobe Systems Incorporated, San Francisco, CA</h3>
-      <p class="mvn lh-copy"><strong>Dreamweaver Quality Engineering Intern</strong> Summer 2007 and 2008.</p>
-      <ul class="mvs lh-copy">
-        <li>Tested both daily builds and released versions of Dreamweaver against various operating systems - including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.</li>
-        <li>Developed and tested the Web Widgets Feature for Dreamweaver CS4, which won the &#8220;Dreamweaver Community Feature of the Year&#8221; award in 2008.</li>
-      </ul>
+      <h3 class="lh-title mb0 mt3">Pseudoweb Contracting, Santa Rosa, CA</h3>
+      <p class="mv0 lh-copy"><strong>Software Developer</strong> 2005 to 2009. I was a software developer contractor dealing mainly in web design and Linux systems management. Had various internships at larger organizations during this time as well.</p>
 
       <!--
-      <h3 class="lh-title mbn mtm">County of Sonoma ISD, Santa Rosa, CA</h3>
-      <p class="mvn lh-copy"><strong>Intern</strong> Summer 2005. Built websites and maintained computer labs and data centers.</p>
+      <h3 class="lh-title mb0 mt3">Adobe Systems Incorporated, San Francisco, CA</h3>
+      <p class="mv0 lh-copy"><strong>Dreamweaver Quality Engineering Intern</strong> Summer 2007 and 2008.</p>
+
+      <h3 class="lh-title mb0 mt3">Cal Poly CSC Department, San Luis Obispo, CA</h3>
+      <p class="mv0 lh-copy"><strong>Computer Lab Staff</strong> 2007.</p>
+
+      <h3 class="lh-title mb0 mt3">County of Sonoma ISD, Santa Rosa, CA</h3>
+      <p class="mv0 lh-copy"><strong>Intern</strong> Summer 2005.</p>
       -->
 
-      <h3 class="lh-title mbn mtm">BSA Camp Oljato, Lakeshore, CA</h3>
-      <p class="mvn lh-copy"><strong>Nature Director</strong> Summer 2006.</p>
-      <p class="mvn lh-copy"><strong>Camp Counselor</strong> Summer 2002, 2003 and 2004.</p>
+      <h3 class="lh-title mb0 mt3">BSA Camp Oljato, Lakeshore, CA</h3>
+      <p class="mv0 lh-copy"><strong>Nature Director</strong> Summer 2006.</p>
+      <p class="mv0 lh-copy"><strong>Camp Counselor</strong> Summer 2002, 2003 and 2004.</p>
 
-      <h2 class="lh-title ttu book silver">Education</h2>
+      <h2 class="lh-title ttu fw3 silver">Education</h2>
 
-      <p class="mvn lh-copy"><strong>Computer Science, B.S.</strong> California Polytechnic State University, San Luis Obispo. Fall 2006 - Spring 2011.</p>
-      <p class="mvn lh-copy"><strong>Recurser</strong> Recurse Center, New York. Spring 2015</p>
-
-      <h2 class="lh-title ttu book silver">Proficiencies</h2>
-
-      <p class="mvn lh-copy"><strong>Code</strong>: Ruby, Go, Javascript,Python, SQL, PHP, Java, Bash, C and others</p>
-      <p class="mvn lh-copy"><strong>Software</strong>: GCP, AWS, Photoshop, Linux, Docker, Postgres, MySQL and lots of cloud related things</p>
+      <p class="mv0 lh-copy"><strong>Computer Science, B.S.</strong> California Polytechnic State University, San Luis Obispo. Fall 2006 - Spring 2011.</p>
+      <p class="mv0 lh-copy"><strong>Recurser</strong> Recurse Center, New York. Spring 2015</p>
     </main>
 
     <script>

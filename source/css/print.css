@@ -1,10 +1,14 @@
 /* use a media query to limit the CSS to only print devices, like a printer */
 @media only print {
   html {
-    font-size: 9px;
+    font-size: 10px;
   }
 
   .mw-100-print {
     max-width: 100%;
+  }
+
+  .f-print {
+    font-size: 1em;
   }
 }
