@@ -142,6 +142,7 @@ DEPENDENCIES
   middleman-imageoptim!
   middleman-livereload
   oj
+  rack (>= 2.0.6)
   therubyracer
 
 RUBY VERSION
