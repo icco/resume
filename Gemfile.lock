@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/plasticine/middleman-imageoptim
-  revision: a539caef0d2f9a23704ed36cf36c7945d2282c62
+  revision: fe3dac51a3a1180acebc38c0223e92e3e981380e
   branch: master
   specs:
-    middleman-imageoptim (0.2.1)
+    middleman-imageoptim (0.3.0)
       image_optim (~> 0.25.0)
       image_optim_pack (~> 0.2.1)
       middleman-cli
@@ -12,21 +12,21 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.0.7.1)
+    activesupport (5.0.7.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    backports (3.11.4)
+    backports (3.12.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     contracts (0.13.0)
-    dotenv (2.6.0)
+    dotenv (2.7.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -36,7 +36,7 @@ GEM
     exifr (1.3.6)
     fast_blank (1.0.0)
     fastimage (2.1.5)
-    ffi (1.9.25)
+    ffi (1.10.0)
     fspath (3.1.0)
     haml (5.0.4)
       temple (>= 0.8.0)
@@ -100,14 +100,14 @@ GEM
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
     minitest (5.11.3)
-    oj (3.7.9)
+    oj (3.7.11)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
       tilt (>= 1.4.1, < 3)
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
-    parallel (1.13.0)
+    parallel (1.16.2)
     progress (3.5.0)
     public_suffix (3.0.3)
     rack (2.0.6)
@@ -118,11 +118,11 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     ref (2.0.0)
-    sassc (2.0.0)
-      ffi (~> 1.9.6)
+    sassc (2.0.1)
+      ffi (~> 1.9)
       rake
     servolux (0.13.0)
-    temple (0.8.0)
+    temple (0.8.1)
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
@@ -146,7 +146,7 @@ DEPENDENCIES
   therubyracer
 
 RUBY VERSION
-   ruby 2.6.0p0
+   ruby 2.6.2p47
 
 BUNDLED WITH
    1.17.2
