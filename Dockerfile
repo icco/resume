@@ -1,6 +1,7 @@
 FROM ruby:2.6.2-alpine
 WORKDIR /opt
 ENV LANG C.UTF-8
+RUN apk add --no-cache git g++ musl-dev make libstdc++
 COPY . .
 RUN bundle install
 RUN ls -alh
