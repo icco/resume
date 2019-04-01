@@ -3,7 +3,7 @@ WORKDIR /opt
 ENV LANG C.UTF-8
 
 # https://github.com/eventmachine/eventmachine/wiki/Building-EventMachine#alpine
-RUN apk add --no-cache git g++ musl-dev make libstdc++
+RUN apk add --update --no-cache --virtual build-deps build-base git g++ musl-dev make libstdc++
 
 COPY . .
 RUN bundle install
