@@ -1,9 +1,6 @@
-FROM ruby:2.6.2-alpine
+FROM ruby:2.6.2
 WORKDIR /opt
 ENV LANG C.UTF-8
-
-# https://github.com/eventmachine/eventmachine/wiki/Building-EventMachine#alpine
-RUN apk add --update --no-cache --virtual build-deps build-base git g++ musl-dev make libstdc++
 
 COPY . .
 RUN bundle install
