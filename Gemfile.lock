@@ -99,6 +99,8 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    mini_racer (0.2.4)
+      libv8 (>= 6.3)
     minitest (5.11.3)
     oj (3.7.11)
     padrino-helpers (0.13.3.4)
@@ -134,10 +136,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  libv8
   middleman (~> 4)
   middleman-imageoptim!
   middleman-livereload
+  mini_racer
   oj
   rack (>= 2.0.6)
 
