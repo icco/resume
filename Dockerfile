@@ -1,13 +1,12 @@
-FROM ruby:2.6.3-alpine
+FROM ruby:2.6.3
 WORKDIR /opt
 ENV LANG C.UTF-8
-RUN apk add --no-cache git build-base libxml2-dev libxslt-dev
 
 COPY . .
 RUN bundle install
 RUN bundle exec middleman build
 
-FROM nginx:latest
+FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 WORKDIR /usr/share/nginx/html
 COPY --from=0 /opt/build/ .
