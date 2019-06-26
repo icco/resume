@@ -1,6 +1,7 @@
-FROM ruby:2.6.2
+FROM ruby:2.6.3-alpine
 WORKDIR /opt
 ENV LANG C.UTF-8
+RUN apk add --no-cache git build-base libxml2-dev libxslt-dev
 
 COPY . .
 RUN bundle install
