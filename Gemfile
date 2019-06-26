@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.6.2"
+ruby "2.6.3"
 
 gem "middleman", "~> 4"
 gem "rack", ">= 2.0.6"
