@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.6.3"
 
-gem "middleman", "~> 4"
+gem "middleman", "~> 4", ">= 4.3.7"
 gem "rack", ">= 2.0.6"
 gem "mini_racer"
 
@@ -11,7 +11,7 @@ gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-ima
 
 
 # Live-reloading plugin
-gem "middleman-livereload"
+gem "middleman-livereload", ">= 3.4.6"
 
 # Faster json
 gem "oj"
