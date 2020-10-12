@@ -112,7 +112,7 @@ GEM
     parallel (1.19.1)
     progress (3.5.2)
     public_suffix (4.0.1)
-    rack (2.0.7)
+    rack (2.1.4)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.10.3)
