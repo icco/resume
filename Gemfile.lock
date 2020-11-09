@@ -33,7 +33,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    exifr (1.3.8)
+    exifr (1.3.9)
     fast_blank (1.0.0)
     fastimage (2.2.0)
     ffi (1.13.1)
@@ -53,7 +53,10 @@ GEM
       image_size (>= 1.5, < 3)
       in_threads (~> 1.3)
       progress (~> 3.0, >= 3.0.1)
-    image_optim_pack (0.6.0.20200215)
+    image_optim_pack (0.6.0.20201024)
+      fspath (>= 2.1, < 4)
+      image_optim (~> 0.19)
+    image_optim_pack (0.6.0.20201024-x86_64-darwin)
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
     image_size (2.1.0)
@@ -61,6 +64,7 @@ GEM
     kramdown (2.3.0)
       rexml
     libv8 (8.4.255.0)
+    libv8 (8.4.255.0-x86_64-darwin-19)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -103,14 +107,14 @@ GEM
     mini_racer (0.3.1)
       libv8 (~> 8.4.255)
     minitest (5.14.2)
-    oj (3.10.14)
+    oj (3.10.15)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
       tilt (>= 1.4.1, < 3)
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
-    parallel (1.19.2)
+    parallel (1.20.0)
     progress (3.5.2)
     public_suffix (4.0.6)
     rack (2.2.3)
@@ -127,13 +131,14 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   middleman (~> 4)
@@ -147,4 +152,4 @@ RUBY VERSION
    ruby 2.7.0p0
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
