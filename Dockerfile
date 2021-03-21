@@ -2,6 +2,10 @@ FROM ruby:2.7.0
 WORKDIR /opt
 ENV LANG C.UTF-8
 
+# Update bundler
+RUN gem install bundler:2.1.4
+RUN bundle config set specific_platform true
+
 COPY . .
 RUN bundle install
 RUN bundle exec middleman build
