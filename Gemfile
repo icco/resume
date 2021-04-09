@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.7.0"
 
-gem "middleman", "~> 4"
+gem "middleman", "~> 4", ">= 4.3.11"
 gem "rack", ">= 2.0.6"
 gem "mini_racer"
 
