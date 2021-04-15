@@ -9,9 +9,5 @@ gem "mini_racer"
 # For shrinking things
 gem "middleman-imageoptim", :git => "https://github.com/alexsanderson/middleman-imageoptim", :branch => "master"
 
-
-# Live-reloading plugin
-gem "middleman-livereload"
-
 # Faster json
 gem "oj"
