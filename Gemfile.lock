@@ -12,14 +12,14 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.4.5)
+    activesupport (5.2.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    backports (3.20.2)
+    backports (3.21.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -53,9 +53,6 @@ GEM
       image_size (>= 1.5, < 3)
       in_threads (~> 1.3)
       progress (~> 3.0, >= 3.0.1)
-    image_optim_pack (0.7.0.20210206)
-      fspath (>= 2.1, < 4)
-      image_optim (~> 0.19)
     image_optim_pack (0.7.0.20210206-x86_64-darwin)
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
@@ -63,8 +60,7 @@ GEM
     in_threads (1.5.4)
     kramdown (2.3.1)
       rexml
-    libv8 (8.4.255.0)
-    libv8 (8.4.255.0-x86_64-darwin-19)
+    libv8-node (15.14.0.0-x86_64-darwin-20)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -100,14 +96,14 @@ GEM
       servolux
       tilt (~> 2.0.9)
       uglifier (~> 3.0)
-    middleman-livereload (3.4.6)
+    middleman-livereload (3.4.7)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    mini_racer (0.3.1)
-      libv8 (~> 8.4.255)
+    mini_racer (0.4.0)
+      libv8-node (~> 15.14.0.0)
     minitest (5.14.4)
-    oj (3.11.3)
+    oj (3.11.4)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
@@ -115,7 +111,7 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.20.1)
-    progress (3.5.2)
+    progress (3.6.0)
     public_suffix (4.0.6)
     rack (2.2.3)
     rack-livereload (0.3.17)
@@ -123,7 +119,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
@@ -137,11 +133,10 @@ GEM
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
-  ruby
-  x86_64-darwin-19
+  x86_64-darwin-20
 
 DEPENDENCIES
-  middleman (~> 4)
+  middleman (~> 4, >= 4.3.11)
   middleman-imageoptim!
   middleman-livereload
   mini_racer
@@ -149,7 +144,7 @@ DEPENDENCIES
   rack (>= 2.0.6)
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 3.0.0p0
 
 BUNDLED WITH
-   2.1.4
+   2.2.16
