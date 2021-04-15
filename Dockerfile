@@ -3,7 +3,7 @@ WORKDIR /opt
 ENV LANG C.UTF-8
 
 # Update bundler
-RUN gem install bundler:2.1.4
+RUN gem install bundler:2.2.16
 RUN bundle config set specific_platform true
 
 COPY . .
