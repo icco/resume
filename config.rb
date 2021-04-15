@@ -1,3 +1,5 @@
+MiniRacer::Platform.set_flags! :single_threaded
+
 ###
 # Page options, layouts, aliases and proxies
 ###
