@@ -17,6 +17,22 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
   <link href="css/other-5fd3fb7b.css" rel="stylesheet">
   <link href="css/print-c28e2d83.css" rel="stylesheet" media="print">
+    <script type="module">
+      import { onCLS, onINP, onLCP, onFCP, onFID, onTTFB } from 'https://unpkg.com/web-vitals@4?module';
+
+      function sendToAnalytics(metric) {
+        const body = JSON.stringify(metric);
+        (navigator.sendBeacon && navigator.sendBeacon('https://reportd.natwelch.com/analytics/resume', body)) ||
+          fetch('https://reportd.natwelch.com/analytics/resume', { body, method: 'POST', keepalive: true });
+      }
+
+      onCLS(sendToAnalytics);
+      onFCP(sendToAnalytics);
+      onFID(sendToAnalytics);
+      onINP(sendToAnalytics);
+      onLCP(sendToAnalytics);
+      onTTFB(sendToAnalytics);
+    </script>
 </head>
 
 <body class="index black mw7 mw-100-print avenir lh-copy">
