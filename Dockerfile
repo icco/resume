@@ -1,4 +1,4 @@
-FROM nginx:1.29-alpine
+FROM nginx:1.31-alpine
 
 LABEL org.opencontainers.image.source=https://github.com/icco/resume
 LABEL org.opencontainers.image.description="Nat Welch's resume; a static HTML/CSS site served at resume.natwelch.com."
