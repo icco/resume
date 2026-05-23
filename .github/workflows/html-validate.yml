@@ -1,0 +1,25 @@
+name: HTML validate
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'css/**'
+      - '.github/workflows/html-validate.yml'
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+jobs:
+  vnu:
+    name: vnu
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Validate HTML
+        uses: Cyb3r-Jak3/html5validator-action@41633d488eb36e18fd1a95ffc83daf1bf22a75bd # v7.2.0
+        with:
+          root: .
+          # Only validate top-level HTML; css/ holds stylesheets, not pages.
+          extra: --match "*.html" --no-recurse
