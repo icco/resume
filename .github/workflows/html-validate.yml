@@ -21,5 +21,3 @@ jobs:
         uses: Cyb3r-Jak3/html5validator-action@41633d488eb36e18fd1a95ffc83daf1bf22a75bd # v7.2.0
         with:
           root: .
-          # Only validate top-level HTML; css/ holds stylesheets, not pages.
-          extra: --match "*.html" --no-recurse
