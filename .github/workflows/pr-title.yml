@@ -18,7 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # Allowed Conventional Commit types — keep in sync with AGENTS.md.
+          # Allowed Conventional Commit types
           types: |
             feat
             fix
