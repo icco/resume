@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Validate HTML
         uses: Cyb3r-Jak3/html5validator-action@4ea5e57383ed7e14432ebbaae1b64893b7c5210b # v8.0.0
         with:
