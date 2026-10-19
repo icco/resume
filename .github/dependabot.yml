@@ -5,18 +5,48 @@ updates:
     schedule:
       interval: weekly
     versioning-strategy: increase
-    open-pull-requests-limit: 10
+    commit-message:
+      prefix: chore(deps)
+      prefix-development: chore(deps-dev)
+    cooldown:
+      default-days: 7
+    groups:
+      npm:
+        patterns:
+          - '*'
   - package-ecosystem: docker
     directory: /
-    open-pull-requests-limit: 10
     schedule:
       interval: weekly
+    commit-message:
+      prefix: chore(deps)
+    cooldown:
+      default-days: 7
+    groups:
+      docker:
+        patterns:
+          - '*'
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+    commit-message:
+      prefix: chore(deps)
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns:
+          - '*'
   - package-ecosystem: gomod
     directory: /
-    open-pull-requests-limit: 10
     schedule:
       interval: weekly
+    commit-message:
+      prefix: chore(deps)
+    cooldown:
+      default-days: 7
+    groups:
+      gomod:
+        patterns:
+          - '*'
